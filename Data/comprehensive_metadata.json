@@ -1,0 +1,41 @@
+{
+  "generation_date": "2025-12-03T13:58:27.434779",
+  "framework": "OntoCodex-aligned",
+  "version": "2.0-Comprehensive",
+  "standards": {
+    "CDM": "OMOP CDM v5",
+    "terminologies": [
+      "SNOMED CT",
+      "ICD-10",
+      "RxNorm",
+      "LOINC",
+      "CPT"
+    ],
+    "ontology": "MCC-CDO aligned"
+  },
+  "cohorts": {
+    "AD": {
+      "n_patients": 200,
+      "total_records": 77040
+    },
+    "Control": {
+      "n_patients": 200,
+      "total_records": 53018
+    }
+  },
+  "data_types": [
+    "Demographics",
+    "Diagnoses",
+    "Medications",
+    "Lab Results",
+    "Imaging",
+    "Treatments",
+    "Vital Signs"
+  ],
+  "ad_diagnoses_count": 10,
+  "risk_factors_count": 23,
+  "medications_count": 30,
+  "lab_tests_count": 28,
+  "imaging_procedures_count": 8,
+  "treatment_procedures_count": 7
+}

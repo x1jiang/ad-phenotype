@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Results
+results/
+*.graphml
+*.pkl
+*.pickle
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archives
+archive/
+archive_*/
+
+# Research Papers & Documentation
+research_paper*.md
+RESEARCH_PAPER*.md
+*.docx
+paper_figures/
+*.pdf
+
+# Server Logs
+server.log
+*.log
+
+# Data files (keep structure but not actual data in repo)
+# Uncomment if you want to exclude large data files:
+# Data/*.csv
+# Data/*.json
+

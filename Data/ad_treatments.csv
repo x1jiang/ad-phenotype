@@ -1,0 +1,2032 @@
+PatientID,DateOfService,ProcedureName,CPT_Code,SNOMED_Code,OMOP_ConceptID,Category
+AD_0001,2017-01-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0001,2017-04-23,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0001,2020-08-27,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0001,2024-03-05,Memory training,97532,410172006,4059388,Cognitive
+AD_0001,2025-02-07,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0002,2023-09-03,Medication management,99215,182834008,581477,Management
+AD_0002,2024-06-29,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0002,2024-07-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0002,2024-08-31,Medication management,99215,182834008,581477,Management
+AD_0002,2024-09-02,Medication management,99215,182834008,581477,Management
+AD_0002,2024-09-27,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0002,2024-10-05,Memory training,97532,410172006,4059388,Cognitive
+AD_0002,2025-01-26,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0002,2025-01-27,Memory training,97532,410172006,4059388,Cognitive
+AD_0002,2025-03-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0002,2025-08-15,Medication management,99215,182834008,581477,Management
+AD_0002,2025-10-03,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0002,2025-11-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0003,2022-01-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0003,2022-08-10,Memory training,97532,410172006,4059388,Cognitive
+AD_0003,2022-10-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0003,2022-12-01,Medication management,99215,182834008,581477,Management
+AD_0003,2023-01-19,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0003,2024-01-02,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0003,2024-01-11,Memory training,97532,410172006,4059388,Cognitive
+AD_0003,2024-03-30,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0003,2024-04-01,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0003,2024-09-28,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0003,2024-10-05,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0003,2025-02-15,Memory training,97532,410172006,4059388,Cognitive
+AD_0003,2025-05-03,Memory training,97532,410172006,4059388,Cognitive
+AD_0003,2025-05-07,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0003,2025-11-02,Medication management,99215,182834008,581477,Management
+AD_0004,2016-12-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0004,2017-03-20,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0004,2017-05-21,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0004,2017-08-31,Memory training,97532,410172006,4059388,Cognitive
+AD_0004,2018-06-02,Memory training,97532,410172006,4059388,Cognitive
+AD_0004,2018-12-12,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0004,2019-12-17,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0004,2020-01-19,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0004,2021-10-27,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0004,2023-07-07,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0004,2024-03-26,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0004,2024-08-25,Memory training,97532,410172006,4059388,Cognitive
+AD_0004,2025-09-03,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0005,2022-01-27,Memory training,97532,410172006,4059388,Cognitive
+AD_0005,2022-04-03,Memory training,97532,410172006,4059388,Cognitive
+AD_0005,2022-06-16,Medication management,99215,182834008,581477,Management
+AD_0005,2022-12-23,Memory training,97532,410172006,4059388,Cognitive
+AD_0005,2023-04-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0005,2023-04-26,Memory training,97532,410172006,4059388,Cognitive
+AD_0005,2023-10-30,Memory training,97532,410172006,4059388,Cognitive
+AD_0005,2024-03-27,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0005,2024-08-06,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0005,2024-08-18,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0005,2024-12-31,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0005,2025-02-25,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0005,2025-03-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0005,2025-09-24,Memory training,97532,410172006,4059388,Cognitive
+AD_0005,2025-11-27,Medication management,99215,182834008,581477,Management
+AD_0006,2018-02-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0006,2019-10-24,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0006,2019-12-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0006,2022-04-30,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0006,2024-11-19,Memory training,97532,410172006,4059388,Cognitive
+AD_0007,2018-03-17,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0007,2020-05-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0007,2022-02-24,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0007,2024-04-05,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0007,2024-08-26,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0007,2025-01-14,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0007,2025-02-21,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0008,2019-09-25,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0008,2020-02-04,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0008,2021-01-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0008,2021-07-11,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0008,2021-08-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0008,2021-08-23,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0008,2021-09-04,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0008,2021-10-26,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0008,2022-01-03,Medication management,99215,182834008,581477,Management
+AD_0008,2022-03-04,Medication management,99215,182834008,581477,Management
+AD_0008,2022-09-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0008,2025-02-11,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0008,2025-07-27,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0009,2022-01-30,Medication management,99215,182834008,581477,Management
+AD_0009,2022-04-02,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0009,2022-04-07,Medication management,99215,182834008,581477,Management
+AD_0009,2023-01-21,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0009,2023-04-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0009,2023-10-13,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0009,2023-10-19,Memory training,97532,410172006,4059388,Cognitive
+AD_0009,2024-06-07,Medication management,99215,182834008,581477,Management
+AD_0009,2025-02-24,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0009,2025-04-05,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0009,2025-04-19,Memory training,97532,410172006,4059388,Cognitive
+AD_0009,2025-05-29,Memory training,97532,410172006,4059388,Cognitive
+AD_0009,2025-08-08,Memory training,97532,410172006,4059388,Cognitive
+AD_0010,2017-03-07,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0010,2017-05-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0010,2019-04-30,Memory training,97532,410172006,4059388,Cognitive
+AD_0010,2019-11-26,Medication management,99215,182834008,581477,Management
+AD_0010,2020-01-27,Memory training,97532,410172006,4059388,Cognitive
+AD_0010,2020-06-06,Memory training,97532,410172006,4059388,Cognitive
+AD_0010,2020-09-16,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0010,2021-04-08,Medication management,99215,182834008,581477,Management
+AD_0010,2021-07-16,Memory training,97532,410172006,4059388,Cognitive
+AD_0010,2021-08-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0010,2023-01-19,Memory training,97532,410172006,4059388,Cognitive
+AD_0010,2023-09-03,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0010,2025-01-04,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0011,2021-05-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0011,2021-05-31,Memory training,97532,410172006,4059388,Cognitive
+AD_0011,2021-06-20,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0011,2021-08-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0011,2021-12-17,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0011,2023-05-29,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0011,2023-10-04,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0011,2024-10-31,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0012,2023-06-06,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0012,2023-12-03,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0012,2024-04-08,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0012,2024-06-11,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0012,2024-08-25,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0012,2024-11-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0012,2025-04-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0013,2018-07-28,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0013,2018-11-09,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0013,2020-05-03,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0013,2021-01-24,Medication management,99215,182834008,581477,Management
+AD_0013,2021-06-05,Memory training,97532,410172006,4059388,Cognitive
+AD_0013,2021-11-06,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0013,2021-12-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0013,2022-07-01,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0013,2022-09-10,Medication management,99215,182834008,581477,Management
+AD_0013,2022-11-15,Memory training,97532,410172006,4059388,Cognitive
+AD_0013,2024-04-11,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0013,2025-05-06,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0013,2025-05-21,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0013,2025-06-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0013,2025-11-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0014,2021-11-10,Memory training,97532,410172006,4059388,Cognitive
+AD_0014,2021-12-14,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0014,2022-05-12,Medication management,99215,182834008,581477,Management
+AD_0014,2023-10-03,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0014,2024-01-19,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0014,2024-02-03,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0014,2024-02-29,Medication management,99215,182834008,581477,Management
+AD_0014,2024-07-31,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0014,2025-02-09,Medication management,99215,182834008,581477,Management
+AD_0014,2025-02-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0014,2025-06-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0014,2025-07-24,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0014,2025-08-08,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0015,2019-11-06,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0015,2020-04-29,Medication management,99215,182834008,581477,Management
+AD_0015,2021-09-06,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0015,2021-11-14,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0015,2021-12-28,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0015,2022-02-04,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0015,2022-02-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0015,2022-12-21,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0015,2023-06-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0015,2023-07-29,Memory training,97532,410172006,4059388,Cognitive
+AD_0015,2023-08-13,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0015,2024-01-27,Medication management,99215,182834008,581477,Management
+AD_0015,2024-09-04,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0015,2025-04-24,Memory training,97532,410172006,4059388,Cognitive
+AD_0015,2025-04-24,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0016,2021-12-28,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0016,2022-03-30,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0016,2022-08-31,Memory training,97532,410172006,4059388,Cognitive
+AD_0016,2023-03-12,Memory training,97532,410172006,4059388,Cognitive
+AD_0016,2023-05-12,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0016,2023-07-30,Memory training,97532,410172006,4059388,Cognitive
+AD_0016,2024-08-11,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0016,2025-01-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0016,2025-01-21,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0016,2025-06-05,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0017,2021-05-11,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0017,2021-06-17,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0017,2021-11-21,Memory training,97532,410172006,4059388,Cognitive
+AD_0017,2022-04-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0017,2022-04-23,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0017,2023-03-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0017,2023-03-28,Memory training,97532,410172006,4059388,Cognitive
+AD_0017,2024-02-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0017,2024-09-03,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0017,2024-10-03,Memory training,97532,410172006,4059388,Cognitive
+AD_0017,2025-01-01,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0017,2025-07-06,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0017,2025-07-08,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0017,2025-12-03,Memory training,97532,410172006,4059388,Cognitive
+AD_0018,2020-01-30,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0018,2020-10-13,Medication management,99215,182834008,581477,Management
+AD_0018,2021-02-10,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0018,2021-02-15,Memory training,97532,410172006,4059388,Cognitive
+AD_0018,2021-05-18,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0018,2022-07-07,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0018,2022-07-17,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0018,2023-01-31,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0018,2023-02-07,Memory training,97532,410172006,4059388,Cognitive
+AD_0018,2023-06-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0018,2023-08-19,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0018,2024-05-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0018,2024-07-08,Medication management,99215,182834008,581477,Management
+AD_0018,2025-11-09,Medication management,99215,182834008,581477,Management
+AD_0019,2021-11-12,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0019,2022-02-18,Medication management,99215,182834008,581477,Management
+AD_0019,2022-09-17,Memory training,97532,410172006,4059388,Cognitive
+AD_0019,2022-10-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0019,2023-08-14,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0019,2023-09-04,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0019,2024-06-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0019,2025-01-26,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0019,2025-11-11,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0020,2021-09-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0020,2022-06-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0020,2022-11-10,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0020,2023-04-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0020,2023-04-16,Medication management,99215,182834008,581477,Management
+AD_0021,2020-02-21,Medication management,99215,182834008,581477,Management
+AD_0021,2020-08-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0021,2021-04-22,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0021,2021-08-29,Memory training,97532,410172006,4059388,Cognitive
+AD_0021,2021-09-08,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0021,2022-01-03,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0021,2024-04-23,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0021,2024-09-08,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0021,2024-09-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0021,2025-01-03,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0022,2021-11-08,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0022,2022-03-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0022,2022-04-04,Memory training,97532,410172006,4059388,Cognitive
+AD_0022,2022-08-22,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0022,2022-12-18,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0022,2023-03-01,Memory training,97532,410172006,4059388,Cognitive
+AD_0022,2023-08-02,Memory training,97532,410172006,4059388,Cognitive
+AD_0022,2024-11-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0022,2025-07-09,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0023,2021-01-14,Medication management,99215,182834008,581477,Management
+AD_0023,2021-06-28,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0023,2021-09-12,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0023,2023-11-25,Memory training,97532,410172006,4059388,Cognitive
+AD_0023,2024-03-31,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0023,2025-05-21,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0024,2017-09-14,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0024,2017-10-24,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0024,2019-05-17,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0024,2020-08-09,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0024,2020-12-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0024,2020-12-21,Memory training,97532,410172006,4059388,Cognitive
+AD_0025,2018-01-15,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0025,2018-05-12,Medication management,99215,182834008,581477,Management
+AD_0025,2018-07-12,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0025,2018-08-31,Medication management,99215,182834008,581477,Management
+AD_0025,2021-03-03,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0025,2021-04-13,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0025,2023-04-14,Memory training,97532,410172006,4059388,Cognitive
+AD_0025,2024-05-21,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0025,2024-08-30,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0025,2025-04-22,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0026,2017-04-10,Memory training,97532,410172006,4059388,Cognitive
+AD_0026,2017-11-27,Medication management,99215,182834008,581477,Management
+AD_0026,2018-06-18,Memory training,97532,410172006,4059388,Cognitive
+AD_0026,2020-03-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0026,2022-02-02,Memory training,97532,410172006,4059388,Cognitive
+AD_0026,2023-09-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0027,2017-05-27,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0027,2020-03-20,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0027,2020-05-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0027,2020-11-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0027,2021-04-27,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0028,2016-11-28,Medication management,99215,182834008,581477,Management
+AD_0028,2019-08-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0028,2020-01-11,Medication management,99215,182834008,581477,Management
+AD_0028,2020-11-14,Memory training,97532,410172006,4059388,Cognitive
+AD_0028,2021-03-02,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0028,2022-11-02,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0028,2025-10-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0029,2020-10-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0029,2020-10-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0029,2020-10-25,Memory training,97532,410172006,4059388,Cognitive
+AD_0029,2021-04-22,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0029,2023-02-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0029,2023-06-20,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0029,2024-03-19,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0029,2025-01-18,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0030,2018-07-01,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0030,2019-01-08,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0030,2020-03-25,Medication management,99215,182834008,581477,Management
+AD_0030,2020-06-23,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0030,2020-07-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0030,2020-10-11,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0030,2022-10-16,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0030,2022-12-15,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0030,2023-05-23,Memory training,97532,410172006,4059388,Cognitive
+AD_0030,2023-11-30,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0031,2023-02-03,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0031,2023-05-07,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0031,2023-06-12,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0031,2023-06-21,Memory training,97532,410172006,4059388,Cognitive
+AD_0031,2023-11-22,Memory training,97532,410172006,4059388,Cognitive
+AD_0031,2024-03-16,Medication management,99215,182834008,581477,Management
+AD_0031,2024-05-30,Memory training,97532,410172006,4059388,Cognitive
+AD_0031,2024-06-29,Memory training,97532,410172006,4059388,Cognitive
+AD_0031,2024-07-28,Memory training,97532,410172006,4059388,Cognitive
+AD_0031,2024-11-08,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0031,2025-05-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0031,2025-07-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0031,2025-09-11,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0031,2025-11-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0032,2017-07-23,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0032,2018-07-10,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0032,2020-07-14,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0032,2021-01-10,Medication management,99215,182834008,581477,Management
+AD_0032,2022-01-11,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0033,2023-01-18,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0033,2023-05-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0033,2023-09-02,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0033,2023-10-10,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0033,2024-01-04,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0033,2024-10-07,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0034,2023-04-24,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0034,2023-11-30,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0034,2023-12-12,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0034,2023-12-24,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0034,2024-03-04,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0034,2024-04-04,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0034,2024-05-22,Memory training,97532,410172006,4059388,Cognitive
+AD_0034,2024-10-13,Memory training,97532,410172006,4059388,Cognitive
+AD_0034,2024-11-28,Memory training,97532,410172006,4059388,Cognitive
+AD_0034,2024-12-11,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0034,2025-03-25,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0034,2025-08-14,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0034,2025-10-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0034,2025-11-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0035,2020-09-28,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0035,2020-10-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0035,2021-02-04,Memory training,97532,410172006,4059388,Cognitive
+AD_0035,2021-12-29,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0035,2022-04-05,Memory training,97532,410172006,4059388,Cognitive
+AD_0035,2023-11-26,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0035,2024-03-09,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0035,2025-06-13,Medication management,99215,182834008,581477,Management
+AD_0035,2025-10-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0036,2020-12-29,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0036,2021-01-25,Memory training,97532,410172006,4059388,Cognitive
+AD_0036,2021-02-14,Medication management,99215,182834008,581477,Management
+AD_0036,2021-12-18,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0036,2021-12-19,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0036,2023-09-03,Medication management,99215,182834008,581477,Management
+AD_0036,2024-04-06,Medication management,99215,182834008,581477,Management
+AD_0036,2025-04-24,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0036,2025-06-17,Medication management,99215,182834008,581477,Management
+AD_0036,2025-10-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0037,2022-03-31,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0037,2023-11-10,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0037,2024-06-17,Memory training,97532,410172006,4059388,Cognitive
+AD_0037,2024-09-11,Medication management,99215,182834008,581477,Management
+AD_0037,2025-04-13,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0037,2025-05-22,Memory training,97532,410172006,4059388,Cognitive
+AD_0038,2019-02-11,Medication management,99215,182834008,581477,Management
+AD_0038,2019-12-08,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0038,2020-03-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0038,2022-12-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0038,2023-03-16,Memory training,97532,410172006,4059388,Cognitive
+AD_0038,2023-09-28,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0038,2025-11-05,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0039,2018-06-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0039,2020-02-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0039,2021-12-21,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0039,2022-07-03,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0039,2023-04-25,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0039,2024-07-11,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0039,2024-12-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0039,2025-01-16,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0039,2025-08-19,Memory training,97532,410172006,4059388,Cognitive
+AD_0040,2019-03-23,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0040,2019-12-06,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0040,2020-02-18,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0040,2024-08-18,Medication management,99215,182834008,581477,Management
+AD_0040,2025-10-01,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0041,2021-04-19,Medication management,99215,182834008,581477,Management
+AD_0041,2021-06-14,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0041,2021-10-21,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0041,2021-11-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0041,2022-06-30,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0041,2023-04-16,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0041,2023-07-07,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0041,2024-11-24,Memory training,97532,410172006,4059388,Cognitive
+AD_0041,2025-01-02,Medication management,99215,182834008,581477,Management
+AD_0041,2025-01-08,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0041,2025-01-25,Medication management,99215,182834008,581477,Management
+AD_0041,2025-07-25,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0041,2025-08-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0041,2025-10-14,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0042,2023-10-19,Medication management,99215,182834008,581477,Management
+AD_0042,2024-03-14,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0042,2024-06-28,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0042,2025-09-04,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0042,2025-09-26,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0043,2024-03-26,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0043,2024-05-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0043,2024-07-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0043,2024-07-22,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0043,2024-08-10,Memory training,97532,410172006,4059388,Cognitive
+AD_0043,2024-09-29,Medication management,99215,182834008,581477,Management
+AD_0043,2024-11-07,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0043,2024-12-01,Medication management,99215,182834008,581477,Management
+AD_0043,2025-02-24,Memory training,97532,410172006,4059388,Cognitive
+AD_0043,2025-03-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0043,2025-04-29,Memory training,97532,410172006,4059388,Cognitive
+AD_0043,2025-07-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0043,2025-09-26,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0044,2017-05-22,Medication management,99215,182834008,581477,Management
+AD_0044,2018-06-25,Memory training,97532,410172006,4059388,Cognitive
+AD_0044,2018-07-11,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0044,2019-10-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0044,2022-05-06,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0044,2023-01-21,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0044,2023-02-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0044,2023-04-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0044,2023-05-02,Memory training,97532,410172006,4059388,Cognitive
+AD_0044,2023-08-24,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0044,2025-07-31,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0045,2023-05-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0045,2023-06-22,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0045,2023-09-12,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0045,2023-12-15,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0045,2024-01-31,Medication management,99215,182834008,581477,Management
+AD_0045,2024-09-22,Memory training,97532,410172006,4059388,Cognitive
+AD_0045,2025-02-05,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0045,2025-11-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0046,2020-11-16,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0046,2022-09-20,Memory training,97532,410172006,4059388,Cognitive
+AD_0046,2023-02-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0046,2023-05-23,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0046,2023-05-26,Memory training,97532,410172006,4059388,Cognitive
+AD_0046,2023-08-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0046,2025-04-21,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0047,2019-09-10,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0047,2019-09-27,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0047,2020-10-17,Memory training,97532,410172006,4059388,Cognitive
+AD_0047,2022-07-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0047,2023-09-08,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0047,2024-10-14,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0047,2025-09-29,Memory training,97532,410172006,4059388,Cognitive
+AD_0047,2025-10-06,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0048,2020-11-02,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0048,2021-01-07,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0048,2021-10-18,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0048,2022-04-05,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0048,2022-10-20,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0048,2023-02-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0048,2023-10-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0048,2024-03-29,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0048,2024-05-24,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0048,2024-07-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0048,2025-01-12,Medication management,99215,182834008,581477,Management
+AD_0048,2025-06-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0048,2025-08-27,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0049,2019-08-28,Medication management,99215,182834008,581477,Management
+AD_0049,2020-11-07,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0049,2020-12-28,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0049,2021-07-23,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0049,2021-10-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0049,2021-11-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0049,2021-12-31,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0049,2024-10-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0049,2025-11-03,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0050,2022-09-09,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0050,2023-05-04,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0050,2023-05-06,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0050,2023-10-28,Memory training,97532,410172006,4059388,Cognitive
+AD_0050,2024-12-08,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0050,2025-11-26,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0051,2016-10-23,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0051,2018-10-20,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0051,2020-10-15,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0051,2021-09-02,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0051,2022-05-26,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0051,2024-05-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0052,2024-05-08,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0052,2024-06-04,Medication management,99215,182834008,581477,Management
+AD_0052,2024-06-21,Memory training,97532,410172006,4059388,Cognitive
+AD_0052,2024-08-13,Memory training,97532,410172006,4059388,Cognitive
+AD_0052,2024-09-29,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0052,2024-11-17,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0052,2025-02-24,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0052,2025-04-18,Memory training,97532,410172006,4059388,Cognitive
+AD_0052,2025-06-08,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0052,2025-06-14,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0052,2025-07-19,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0052,2025-09-18,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0052,2025-11-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0053,2020-12-11,Medication management,99215,182834008,581477,Management
+AD_0053,2021-11-08,Memory training,97532,410172006,4059388,Cognitive
+AD_0053,2021-11-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0053,2022-02-23,Medication management,99215,182834008,581477,Management
+AD_0053,2022-09-19,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0053,2023-02-09,Medication management,99215,182834008,581477,Management
+AD_0053,2024-03-28,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0053,2024-04-08,Memory training,97532,410172006,4059388,Cognitive
+AD_0053,2024-05-21,Medication management,99215,182834008,581477,Management
+AD_0053,2025-09-02,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0053,2025-09-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0053,2025-10-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0054,2020-08-26,Medication management,99215,182834008,581477,Management
+AD_0054,2020-09-02,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0054,2020-09-25,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0054,2020-10-03,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0054,2020-12-02,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0054,2020-12-06,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0054,2021-03-14,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0054,2025-07-17,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0054,2025-11-28,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0055,2017-04-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0055,2017-10-17,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0055,2018-09-11,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0055,2018-11-28,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0055,2020-08-05,Memory training,97532,410172006,4059388,Cognitive
+AD_0055,2021-01-29,Medication management,99215,182834008,581477,Management
+AD_0055,2022-03-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0055,2022-04-01,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0055,2023-02-21,Medication management,99215,182834008,581477,Management
+AD_0055,2023-04-21,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0055,2024-06-14,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0055,2024-10-05,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0055,2025-03-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0055,2025-08-14,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0056,2016-12-06,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0056,2018-01-26,Memory training,97532,410172006,4059388,Cognitive
+AD_0056,2019-01-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0056,2019-06-19,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0056,2021-04-28,Memory training,97532,410172006,4059388,Cognitive
+AD_0056,2024-03-01,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0056,2024-07-29,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0056,2024-09-27,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0056,2024-12-14,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0057,2018-12-19,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0057,2021-09-21,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0057,2023-09-11,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0057,2024-11-30,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0057,2025-05-10,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0057,2025-06-02,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0058,2023-01-17,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0058,2023-01-22,Medication management,99215,182834008,581477,Management
+AD_0058,2023-07-31,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0058,2023-10-09,Medication management,99215,182834008,581477,Management
+AD_0058,2023-12-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0058,2024-01-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0058,2024-01-21,Memory training,97532,410172006,4059388,Cognitive
+AD_0058,2024-02-26,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0058,2024-03-07,Memory training,97532,410172006,4059388,Cognitive
+AD_0058,2025-08-27,Memory training,97532,410172006,4059388,Cognitive
+AD_0058,2025-10-01,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0058,2025-10-24,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0059,2019-11-21,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0059,2020-04-17,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0059,2020-06-24,Memory training,97532,410172006,4059388,Cognitive
+AD_0059,2021-05-29,Medication management,99215,182834008,581477,Management
+AD_0059,2022-01-14,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0059,2022-09-09,Memory training,97532,410172006,4059388,Cognitive
+AD_0059,2022-12-05,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0059,2025-11-02,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0060,2018-01-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0060,2018-01-16,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0060,2018-12-22,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0060,2019-01-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0060,2019-10-06,Medication management,99215,182834008,581477,Management
+AD_0060,2019-11-29,Memory training,97532,410172006,4059388,Cognitive
+AD_0060,2020-03-27,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0060,2020-12-06,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0060,2021-03-17,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0060,2022-03-06,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0060,2022-09-04,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0060,2023-04-28,Memory training,97532,410172006,4059388,Cognitive
+AD_0060,2023-12-02,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0060,2024-03-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0060,2025-01-29,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0061,2023-07-29,Medication management,99215,182834008,581477,Management
+AD_0061,2024-12-29,Medication management,99215,182834008,581477,Management
+AD_0061,2025-01-12,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0061,2025-06-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0061,2025-10-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0061,2025-11-01,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0062,2019-03-20,Memory training,97532,410172006,4059388,Cognitive
+AD_0062,2020-04-24,Memory training,97532,410172006,4059388,Cognitive
+AD_0062,2021-03-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0062,2022-09-13,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0062,2023-01-19,Memory training,97532,410172006,4059388,Cognitive
+AD_0062,2024-07-06,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0062,2024-07-27,Memory training,97532,410172006,4059388,Cognitive
+AD_0062,2025-08-08,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0063,2018-03-13,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0063,2018-05-11,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0063,2019-04-05,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0063,2019-08-11,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0063,2020-03-13,Memory training,97532,410172006,4059388,Cognitive
+AD_0063,2020-04-12,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0063,2020-07-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0063,2020-07-31,Memory training,97532,410172006,4059388,Cognitive
+AD_0063,2021-04-26,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0063,2022-03-26,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0063,2022-04-17,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0063,2023-05-05,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0063,2024-01-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0063,2024-03-26,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0064,2016-07-30,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0064,2016-12-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0064,2017-06-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0064,2019-12-31,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0064,2020-07-08,Memory training,97532,410172006,4059388,Cognitive
+AD_0064,2021-01-31,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0064,2021-10-19,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0064,2022-06-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0064,2024-01-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0064,2024-05-18,Medication management,99215,182834008,581477,Management
+AD_0064,2025-10-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0065,2023-11-26,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0065,2023-12-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0065,2023-12-20,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0065,2024-02-01,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0065,2024-05-25,Memory training,97532,410172006,4059388,Cognitive
+AD_0065,2024-06-10,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0065,2024-07-05,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0065,2024-07-26,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0065,2024-09-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0065,2024-10-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0065,2024-11-19,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0065,2025-07-02,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0065,2025-07-13,Medication management,99215,182834008,581477,Management
+AD_0065,2025-08-16,Medication management,99215,182834008,581477,Management
+AD_0065,2025-11-01,Memory training,97532,410172006,4059388,Cognitive
+AD_0066,2022-10-02,Memory training,97532,410172006,4059388,Cognitive
+AD_0066,2023-12-09,Medication management,99215,182834008,581477,Management
+AD_0066,2024-10-02,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0066,2024-11-11,Memory training,97532,410172006,4059388,Cognitive
+AD_0066,2024-11-30,Memory training,97532,410172006,4059388,Cognitive
+AD_0066,2025-03-01,Memory training,97532,410172006,4059388,Cognitive
+AD_0066,2025-04-02,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0067,2021-05-02,Memory training,97532,410172006,4059388,Cognitive
+AD_0067,2021-07-07,Medication management,99215,182834008,581477,Management
+AD_0067,2022-08-31,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0067,2024-02-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0067,2024-03-19,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0067,2024-04-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0067,2024-04-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0067,2024-06-20,Memory training,97532,410172006,4059388,Cognitive
+AD_0067,2024-08-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0067,2024-09-22,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0067,2024-12-01,Memory training,97532,410172006,4059388,Cognitive
+AD_0068,2018-01-30,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0068,2020-06-30,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0068,2020-10-20,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0068,2020-10-23,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0068,2020-10-25,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0068,2023-04-25,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0068,2023-12-30,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0068,2025-02-20,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0068,2025-11-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0069,2019-06-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0069,2020-05-06,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0069,2022-11-04,Medication management,99215,182834008,581477,Management
+AD_0069,2023-08-22,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0069,2024-09-09,Memory training,97532,410172006,4059388,Cognitive
+AD_0069,2024-12-04,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0070,2022-12-03,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0070,2023-01-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0070,2024-05-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0070,2024-12-04,Medication management,99215,182834008,581477,Management
+AD_0070,2025-01-22,Memory training,97532,410172006,4059388,Cognitive
+AD_0070,2025-03-31,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0071,2023-10-30,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0071,2024-01-27,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0071,2024-05-30,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0071,2024-07-11,Memory training,97532,410172006,4059388,Cognitive
+AD_0071,2024-08-05,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0071,2024-08-08,Memory training,97532,410172006,4059388,Cognitive
+AD_0071,2024-12-16,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0071,2025-02-22,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0071,2025-02-27,Medication management,99215,182834008,581477,Management
+AD_0071,2025-05-05,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0072,2018-05-07,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0072,2018-09-06,Medication management,99215,182834008,581477,Management
+AD_0072,2018-11-07,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0072,2019-02-02,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0072,2019-10-21,Memory training,97532,410172006,4059388,Cognitive
+AD_0072,2021-06-16,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0072,2021-06-25,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0072,2021-12-25,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0072,2024-07-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0072,2024-11-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0072,2025-01-26,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0072,2025-10-09,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0073,2019-08-31,Medication management,99215,182834008,581477,Management
+AD_0073,2021-06-01,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0073,2021-07-07,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0073,2022-05-16,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0073,2022-07-04,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0073,2022-11-27,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0073,2022-11-30,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0073,2022-12-18,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0073,2023-02-11,Memory training,97532,410172006,4059388,Cognitive
+AD_0073,2023-03-20,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0073,2023-09-28,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0073,2024-04-29,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0073,2025-11-06,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0074,2023-08-10,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0074,2023-11-27,Memory training,97532,410172006,4059388,Cognitive
+AD_0074,2024-04-21,Memory training,97532,410172006,4059388,Cognitive
+AD_0074,2024-07-30,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0074,2024-08-07,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0074,2024-11-04,Memory training,97532,410172006,4059388,Cognitive
+AD_0074,2024-11-08,Memory training,97532,410172006,4059388,Cognitive
+AD_0074,2025-01-04,Memory training,97532,410172006,4059388,Cognitive
+AD_0074,2025-01-05,Memory training,97532,410172006,4059388,Cognitive
+AD_0074,2025-04-25,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0074,2025-05-08,Medication management,99215,182834008,581477,Management
+AD_0074,2025-11-04,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0075,2022-12-17,Memory training,97532,410172006,4059388,Cognitive
+AD_0075,2023-01-04,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0075,2023-02-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0075,2023-03-23,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0075,2023-11-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0075,2023-12-07,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0075,2024-02-15,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0075,2024-03-31,Medication management,99215,182834008,581477,Management
+AD_0075,2024-04-28,Medication management,99215,182834008,581477,Management
+AD_0075,2024-05-01,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0075,2024-10-25,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0075,2025-02-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0075,2025-04-21,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0075,2025-11-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0076,2018-06-28,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0076,2019-04-24,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0076,2019-08-24,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0076,2021-06-03,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0076,2021-12-24,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0076,2023-02-02,Memory training,97532,410172006,4059388,Cognitive
+AD_0076,2023-05-29,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0076,2023-06-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0076,2025-08-12,Memory training,97532,410172006,4059388,Cognitive
+AD_0077,2023-10-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0077,2023-10-20,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0077,2024-05-31,Medication management,99215,182834008,581477,Management
+AD_0077,2025-01-06,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0077,2025-09-27,Memory training,97532,410172006,4059388,Cognitive
+AD_0077,2025-10-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0077,2025-11-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0078,2017-11-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0078,2018-02-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0078,2018-04-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0078,2018-06-06,Medication management,99215,182834008,581477,Management
+AD_0078,2018-08-13,Memory training,97532,410172006,4059388,Cognitive
+AD_0078,2019-04-13,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0078,2019-10-12,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0078,2020-07-19,Memory training,97532,410172006,4059388,Cognitive
+AD_0078,2020-09-13,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0078,2021-02-25,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0078,2023-08-31,Memory training,97532,410172006,4059388,Cognitive
+AD_0078,2025-08-24,Memory training,97532,410172006,4059388,Cognitive
+AD_0078,2025-10-01,Memory training,97532,410172006,4059388,Cognitive
+AD_0079,2019-04-06,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0079,2019-06-07,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0079,2020-10-12,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0079,2021-12-08,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0079,2022-03-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0079,2022-06-23,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0079,2022-10-11,Memory training,97532,410172006,4059388,Cognitive
+AD_0079,2022-12-20,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0079,2023-10-28,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0079,2025-04-13,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0080,2018-01-03,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0080,2018-09-03,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0080,2019-06-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0080,2019-08-28,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0080,2019-09-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0080,2020-11-28,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0080,2022-04-20,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0080,2022-04-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0080,2023-03-19,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0080,2024-01-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0080,2024-01-10,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0080,2024-05-27,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0080,2024-12-23,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0080,2025-04-18,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0080,2025-10-03,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0081,2019-09-09,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0081,2019-11-21,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0081,2020-01-19,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0081,2020-08-08,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0081,2020-12-18,Memory training,97532,410172006,4059388,Cognitive
+AD_0081,2022-12-20,Memory training,97532,410172006,4059388,Cognitive
+AD_0081,2023-01-07,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0081,2024-01-07,Memory training,97532,410172006,4059388,Cognitive
+AD_0081,2024-03-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0081,2024-11-09,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0081,2025-04-19,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0081,2025-09-22,Medication management,99215,182834008,581477,Management
+AD_0081,2025-11-01,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0082,2022-05-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0082,2022-10-20,Medication management,99215,182834008,581477,Management
+AD_0082,2022-11-30,Medication management,99215,182834008,581477,Management
+AD_0082,2023-04-17,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0082,2023-05-12,Medication management,99215,182834008,581477,Management
+AD_0082,2024-07-06,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0082,2024-09-11,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0083,2016-12-24,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0083,2017-10-20,Memory training,97532,410172006,4059388,Cognitive
+AD_0083,2018-03-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0083,2018-09-13,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0083,2019-01-18,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0083,2020-09-14,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0083,2020-12-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0083,2021-02-18,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0083,2021-10-20,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0083,2022-12-08,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0083,2023-02-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0083,2023-11-21,Medication management,99215,182834008,581477,Management
+AD_0083,2025-08-14,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0084,2019-11-15,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0084,2021-04-03,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0084,2021-05-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0084,2021-10-03,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0084,2022-11-24,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0084,2023-05-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0084,2023-10-19,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0084,2024-06-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0084,2024-06-25,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0084,2024-07-20,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0084,2024-10-21,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0084,2025-03-29,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0084,2025-08-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0085,2021-11-20,Medication management,99215,182834008,581477,Management
+AD_0085,2022-03-24,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0085,2022-07-19,Medication management,99215,182834008,581477,Management
+AD_0085,2022-08-23,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0085,2024-04-12,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0086,2021-10-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0086,2021-11-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0086,2022-06-20,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0086,2024-02-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0086,2025-09-28,Memory training,97532,410172006,4059388,Cognitive
+AD_0086,2025-10-23,Memory training,97532,410172006,4059388,Cognitive
+AD_0087,2017-09-04,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0087,2018-07-27,Memory training,97532,410172006,4059388,Cognitive
+AD_0087,2020-02-09,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0087,2020-10-17,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0087,2020-12-03,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0087,2022-03-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0087,2023-02-13,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0087,2023-12-25,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0087,2024-09-10,Medication management,99215,182834008,581477,Management
+AD_0087,2024-12-18,Memory training,97532,410172006,4059388,Cognitive
+AD_0088,2021-09-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0088,2022-12-01,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0088,2023-04-07,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0088,2023-05-10,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0088,2023-11-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0088,2024-03-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0088,2024-09-03,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0088,2024-09-14,Memory training,97532,410172006,4059388,Cognitive
+AD_0088,2024-12-29,Memory training,97532,410172006,4059388,Cognitive
+AD_0088,2025-03-21,Memory training,97532,410172006,4059388,Cognitive
+AD_0089,2021-11-08,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0089,2021-11-19,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0089,2022-07-14,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0089,2023-03-14,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0089,2023-03-31,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0089,2023-04-23,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0089,2023-08-26,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0089,2023-09-25,Medication management,99215,182834008,581477,Management
+AD_0089,2023-11-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0089,2023-12-10,Memory training,97532,410172006,4059388,Cognitive
+AD_0089,2024-11-03,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0089,2024-11-09,Medication management,99215,182834008,581477,Management
+AD_0089,2025-02-01,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0089,2025-09-21,Medication management,99215,182834008,581477,Management
+AD_0089,2025-11-10,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0090,2020-11-22,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0090,2021-10-19,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0090,2021-12-18,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0090,2022-04-04,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0090,2022-08-31,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0090,2022-11-01,Medication management,99215,182834008,581477,Management
+AD_0090,2023-09-17,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0090,2024-03-29,Memory training,97532,410172006,4059388,Cognitive
+AD_0090,2024-09-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0090,2025-01-24,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0090,2025-06-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0091,2022-11-28,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0091,2023-08-19,Memory training,97532,410172006,4059388,Cognitive
+AD_0091,2023-08-24,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0091,2024-08-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0091,2025-06-24,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0091,2025-08-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0092,2022-03-19,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0092,2022-09-19,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0092,2022-11-20,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0092,2022-12-04,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0092,2022-12-25,Memory training,97532,410172006,4059388,Cognitive
+AD_0092,2023-12-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0092,2024-11-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0092,2024-12-05,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0092,2025-11-22,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0092,2025-11-28,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0093,2020-02-04,Memory training,97532,410172006,4059388,Cognitive
+AD_0093,2020-08-01,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0093,2020-08-26,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0093,2020-12-24,Medication management,99215,182834008,581477,Management
+AD_0093,2021-06-11,Memory training,97532,410172006,4059388,Cognitive
+AD_0093,2022-06-09,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0093,2022-08-27,Medication management,99215,182834008,581477,Management
+AD_0093,2022-10-11,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0093,2023-03-26,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0093,2024-09-25,Memory training,97532,410172006,4059388,Cognitive
+AD_0093,2024-11-26,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0093,2025-09-05,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0094,2016-01-27,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0094,2016-08-21,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0094,2016-09-03,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0094,2016-09-04,Medication management,99215,182834008,581477,Management
+AD_0094,2017-07-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0094,2018-11-06,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0094,2020-08-09,Memory training,97532,410172006,4059388,Cognitive
+AD_0094,2021-07-06,Medication management,99215,182834008,581477,Management
+AD_0094,2023-06-28,Memory training,97532,410172006,4059388,Cognitive
+AD_0094,2023-10-29,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0094,2024-03-05,Memory training,97532,410172006,4059388,Cognitive
+AD_0094,2024-04-19,Memory training,97532,410172006,4059388,Cognitive
+AD_0094,2025-06-06,Medication management,99215,182834008,581477,Management
+AD_0094,2025-08-18,Medication management,99215,182834008,581477,Management
+AD_0095,2023-01-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0095,2023-03-18,Medication management,99215,182834008,581477,Management
+AD_0095,2023-03-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0095,2023-10-25,Medication management,99215,182834008,581477,Management
+AD_0095,2023-12-24,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0095,2024-11-02,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0096,2023-12-13,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0096,2024-07-27,Memory training,97532,410172006,4059388,Cognitive
+AD_0096,2025-05-07,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0096,2025-06-21,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0096,2025-10-31,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0097,2019-07-02,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0097,2020-11-21,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0097,2021-11-01,Memory training,97532,410172006,4059388,Cognitive
+AD_0097,2022-02-11,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0097,2022-03-29,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0097,2023-10-08,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0097,2024-01-14,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0098,2023-02-06,Memory training,97532,410172006,4059388,Cognitive
+AD_0098,2023-12-02,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0098,2024-02-06,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0098,2024-06-30,Memory training,97532,410172006,4059388,Cognitive
+AD_0098,2024-07-29,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0098,2024-08-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0098,2024-09-03,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0098,2024-12-18,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0098,2025-01-02,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0098,2025-01-07,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0098,2025-04-20,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0098,2025-05-19,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0098,2025-08-29,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0099,2024-04-28,Memory training,97532,410172006,4059388,Cognitive
+AD_0099,2024-05-26,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0099,2024-06-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0099,2024-09-06,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0099,2024-09-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0099,2025-02-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0099,2025-06-22,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0099,2025-09-21,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0100,2022-09-22,Medication management,99215,182834008,581477,Management
+AD_0100,2023-03-01,Medication management,99215,182834008,581477,Management
+AD_0100,2023-04-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0100,2023-06-05,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0100,2023-07-20,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0100,2023-07-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0100,2023-09-09,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0100,2025-04-26,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0100,2025-05-08,Memory training,97532,410172006,4059388,Cognitive
+AD_0101,2018-03-14,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0101,2019-01-26,Medication management,99215,182834008,581477,Management
+AD_0101,2019-06-30,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0101,2019-10-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0101,2020-02-15,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0101,2020-05-01,Memory training,97532,410172006,4059388,Cognitive
+AD_0101,2021-07-25,Memory training,97532,410172006,4059388,Cognitive
+AD_0101,2021-10-05,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0101,2022-09-05,Memory training,97532,410172006,4059388,Cognitive
+AD_0101,2025-02-02,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0101,2025-05-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0101,2025-07-21,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0102,2019-08-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0102,2019-10-11,Memory training,97532,410172006,4059388,Cognitive
+AD_0102,2020-06-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0102,2020-11-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0102,2021-12-23,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0102,2022-07-12,Memory training,97532,410172006,4059388,Cognitive
+AD_0102,2022-11-16,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0102,2023-07-06,Medication management,99215,182834008,581477,Management
+AD_0102,2023-07-25,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0102,2023-09-08,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0102,2023-10-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0102,2023-12-11,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0102,2024-05-04,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0102,2024-09-01,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0102,2025-03-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0103,2019-03-11,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0103,2019-11-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0103,2020-01-23,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0103,2020-02-06,Memory training,97532,410172006,4059388,Cognitive
+AD_0103,2020-04-01,Memory training,97532,410172006,4059388,Cognitive
+AD_0103,2020-08-21,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0103,2021-03-03,Medication management,99215,182834008,581477,Management
+AD_0103,2021-09-14,Memory training,97532,410172006,4059388,Cognitive
+AD_0103,2022-08-14,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0103,2024-07-01,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0103,2025-08-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0104,2020-05-11,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0104,2020-10-28,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0104,2022-11-19,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0104,2024-04-08,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0104,2025-02-02,Memory training,97532,410172006,4059388,Cognitive
+AD_0104,2025-07-29,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0105,2023-08-08,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0105,2023-09-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0105,2024-06-01,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0105,2024-07-20,Medication management,99215,182834008,581477,Management
+AD_0105,2024-11-09,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0105,2025-04-26,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0106,2022-04-06,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0106,2022-09-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0106,2022-10-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0106,2022-11-02,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0106,2023-02-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0106,2023-11-23,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0106,2023-12-01,Memory training,97532,410172006,4059388,Cognitive
+AD_0106,2024-01-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0106,2024-08-11,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0106,2025-03-20,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0106,2025-04-16,Memory training,97532,410172006,4059388,Cognitive
+AD_0107,2018-01-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0107,2018-03-22,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0107,2018-06-11,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0107,2018-06-23,Medication management,99215,182834008,581477,Management
+AD_0107,2020-08-17,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0107,2020-10-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0107,2021-01-08,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0107,2021-09-04,Memory training,97532,410172006,4059388,Cognitive
+AD_0107,2022-08-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0107,2022-09-02,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0107,2023-08-27,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0107,2024-12-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0107,2025-02-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0107,2025-11-28,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0108,2023-09-09,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0108,2023-12-31,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0108,2024-03-02,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0108,2024-07-04,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0108,2024-08-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0109,2019-10-13,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0109,2020-11-10,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0109,2022-06-14,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0109,2023-02-12,Medication management,99215,182834008,581477,Management
+AD_0109,2023-11-26,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0109,2024-01-09,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0109,2025-07-31,Medication management,99215,182834008,581477,Management
+AD_0110,2020-02-26,Memory training,97532,410172006,4059388,Cognitive
+AD_0110,2020-04-07,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0110,2020-12-25,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0110,2021-09-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0110,2021-09-30,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0110,2022-04-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0110,2023-02-25,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0110,2023-03-06,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0110,2023-05-01,Medication management,99215,182834008,581477,Management
+AD_0110,2023-05-15,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0110,2024-06-18,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0110,2024-08-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0110,2025-02-20,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0110,2025-05-25,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0110,2025-06-01,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0111,2019-09-24,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0111,2019-10-02,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0111,2020-08-27,Memory training,97532,410172006,4059388,Cognitive
+AD_0111,2021-07-03,Medication management,99215,182834008,581477,Management
+AD_0111,2022-07-23,Medication management,99215,182834008,581477,Management
+AD_0111,2022-08-09,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0111,2023-06-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0111,2023-07-12,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0111,2024-02-28,Memory training,97532,410172006,4059388,Cognitive
+AD_0111,2025-05-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0112,2021-09-20,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0112,2022-03-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0112,2023-11-24,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0112,2024-03-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0112,2024-06-16,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0113,2022-01-16,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0113,2022-05-30,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0113,2023-03-10,Medication management,99215,182834008,581477,Management
+AD_0113,2024-07-30,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0113,2024-11-13,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0113,2024-12-28,Memory training,97532,410172006,4059388,Cognitive
+AD_0114,2021-09-11,Medication management,99215,182834008,581477,Management
+AD_0114,2021-11-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0114,2021-12-31,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0114,2022-05-24,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0114,2024-03-27,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0114,2024-05-26,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0114,2024-06-26,Medication management,99215,182834008,581477,Management
+AD_0114,2024-08-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0114,2025-02-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0114,2025-07-17,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0115,2021-07-24,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0115,2022-09-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0115,2023-03-18,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0115,2023-08-21,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0115,2023-11-23,Memory training,97532,410172006,4059388,Cognitive
+AD_0115,2024-08-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0115,2025-03-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0115,2025-05-20,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0116,2022-05-09,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0116,2022-06-20,Medication management,99215,182834008,581477,Management
+AD_0116,2023-01-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0116,2023-04-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0116,2023-07-12,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0116,2023-07-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0116,2023-10-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0116,2024-05-14,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0117,2019-04-10,Memory training,97532,410172006,4059388,Cognitive
+AD_0117,2019-12-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0117,2020-10-27,Memory training,97532,410172006,4059388,Cognitive
+AD_0117,2022-11-10,Medication management,99215,182834008,581477,Management
+AD_0117,2023-02-26,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0117,2023-04-26,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0117,2024-02-27,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0118,2016-08-02,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0118,2017-06-13,Medication management,99215,182834008,581477,Management
+AD_0118,2017-08-08,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0118,2017-08-27,Medication management,99215,182834008,581477,Management
+AD_0118,2018-12-09,Memory training,97532,410172006,4059388,Cognitive
+AD_0118,2020-10-14,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0118,2021-01-14,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0118,2021-05-24,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0118,2025-11-24,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0119,2017-07-09,Memory training,97532,410172006,4059388,Cognitive
+AD_0119,2017-09-05,Medication management,99215,182834008,581477,Management
+AD_0119,2017-10-03,Medication management,99215,182834008,581477,Management
+AD_0119,2019-12-18,Medication management,99215,182834008,581477,Management
+AD_0119,2020-01-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0119,2020-04-03,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0119,2022-06-07,Memory training,97532,410172006,4059388,Cognitive
+AD_0119,2023-05-12,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0119,2023-06-12,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0119,2023-08-08,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0119,2024-07-31,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0120,2022-01-15,Memory training,97532,410172006,4059388,Cognitive
+AD_0120,2022-04-21,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0120,2022-11-19,Memory training,97532,410172006,4059388,Cognitive
+AD_0120,2023-01-01,Medication management,99215,182834008,581477,Management
+AD_0120,2023-01-26,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0120,2023-11-07,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0120,2023-11-10,Medication management,99215,182834008,581477,Management
+AD_0120,2023-11-22,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0120,2023-11-29,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0120,2024-12-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0120,2025-03-07,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0120,2025-11-18,Memory training,97532,410172006,4059388,Cognitive
+AD_0120,2025-11-23,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0121,2023-06-08,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0121,2023-08-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0121,2023-11-15,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0121,2023-12-19,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0121,2024-01-06,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0121,2024-02-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0121,2024-03-17,Medication management,99215,182834008,581477,Management
+AD_0121,2024-03-21,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0121,2024-06-02,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0121,2024-07-26,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0121,2025-01-29,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0121,2025-05-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0121,2025-10-14,Medication management,99215,182834008,581477,Management
+AD_0121,2025-11-27,Memory training,97532,410172006,4059388,Cognitive
+AD_0122,2020-10-08,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0122,2020-10-13,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0122,2021-02-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0122,2021-04-06,Memory training,97532,410172006,4059388,Cognitive
+AD_0122,2021-12-08,Memory training,97532,410172006,4059388,Cognitive
+AD_0122,2022-01-05,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0122,2022-06-17,Memory training,97532,410172006,4059388,Cognitive
+AD_0122,2023-12-30,Medication management,99215,182834008,581477,Management
+AD_0122,2024-01-29,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0122,2024-10-03,Memory training,97532,410172006,4059388,Cognitive
+AD_0122,2024-11-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0122,2025-05-27,Memory training,97532,410172006,4059388,Cognitive
+AD_0122,2025-07-05,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0122,2025-09-28,Memory training,97532,410172006,4059388,Cognitive
+AD_0123,2018-11-01,Memory training,97532,410172006,4059388,Cognitive
+AD_0123,2020-03-26,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0123,2021-02-07,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0123,2021-03-29,Memory training,97532,410172006,4059388,Cognitive
+AD_0123,2022-07-26,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0123,2022-12-05,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0123,2023-07-12,Memory training,97532,410172006,4059388,Cognitive
+AD_0123,2024-01-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0123,2024-03-22,Memory training,97532,410172006,4059388,Cognitive
+AD_0123,2024-09-11,Memory training,97532,410172006,4059388,Cognitive
+AD_0123,2025-09-10,Memory training,97532,410172006,4059388,Cognitive
+AD_0124,2019-04-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0124,2019-12-18,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0124,2020-06-26,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0124,2022-08-10,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0124,2023-03-03,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0124,2023-08-11,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0124,2023-08-17,Memory training,97532,410172006,4059388,Cognitive
+AD_0124,2023-12-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0124,2024-07-01,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0124,2025-01-01,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0124,2025-06-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0124,2025-08-09,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0124,2025-09-15,Memory training,97532,410172006,4059388,Cognitive
+AD_0125,2018-03-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0125,2018-09-07,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0125,2018-10-10,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0125,2019-06-29,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0125,2019-12-25,Memory training,97532,410172006,4059388,Cognitive
+AD_0125,2021-07-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0125,2022-04-21,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0125,2023-02-23,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0125,2023-05-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0125,2023-07-14,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0125,2023-12-07,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0126,2019-02-01,Memory training,97532,410172006,4059388,Cognitive
+AD_0126,2019-07-13,Medication management,99215,182834008,581477,Management
+AD_0126,2019-11-26,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0126,2020-01-22,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0126,2020-02-04,Medication management,99215,182834008,581477,Management
+AD_0126,2020-04-26,Memory training,97532,410172006,4059388,Cognitive
+AD_0126,2020-06-12,Medication management,99215,182834008,581477,Management
+AD_0126,2021-02-05,Memory training,97532,410172006,4059388,Cognitive
+AD_0126,2022-02-23,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0126,2023-01-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0126,2023-02-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0126,2023-06-07,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0126,2025-09-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0127,2022-04-10,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0127,2022-10-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0127,2023-06-28,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0127,2023-07-16,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0127,2025-11-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0128,2016-06-10,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0128,2017-02-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0128,2019-03-14,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0128,2019-07-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0128,2020-09-12,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0128,2021-05-16,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0128,2021-07-12,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0128,2022-10-04,Memory training,97532,410172006,4059388,Cognitive
+AD_0128,2023-04-30,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0128,2023-07-12,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0128,2025-01-08,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0128,2025-11-04,Memory training,97532,410172006,4059388,Cognitive
+AD_0128,2025-11-30,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0129,2020-06-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0129,2020-12-12,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0129,2022-11-03,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0129,2022-11-14,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0129,2022-12-06,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0129,2023-02-14,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0129,2024-02-10,Memory training,97532,410172006,4059388,Cognitive
+AD_0129,2024-06-12,Medication management,99215,182834008,581477,Management
+AD_0129,2024-11-22,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0129,2025-02-28,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0129,2025-04-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0130,2021-06-13,Memory training,97532,410172006,4059388,Cognitive
+AD_0130,2021-06-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0130,2022-07-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0130,2023-10-29,Memory training,97532,410172006,4059388,Cognitive
+AD_0130,2024-11-09,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0131,2022-06-21,Memory training,97532,410172006,4059388,Cognitive
+AD_0131,2024-02-22,Medication management,99215,182834008,581477,Management
+AD_0131,2024-04-01,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0131,2024-07-02,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0131,2024-08-23,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0131,2024-11-23,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0131,2025-01-23,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0131,2025-03-30,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0131,2025-08-13,Memory training,97532,410172006,4059388,Cognitive
+AD_0132,2018-09-10,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0132,2019-04-13,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0132,2019-07-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0132,2019-10-09,Medication management,99215,182834008,581477,Management
+AD_0132,2020-06-02,Memory training,97532,410172006,4059388,Cognitive
+AD_0132,2020-09-07,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0132,2021-01-24,Memory training,97532,410172006,4059388,Cognitive
+AD_0132,2021-10-25,Memory training,97532,410172006,4059388,Cognitive
+AD_0132,2022-04-07,Medication management,99215,182834008,581477,Management
+AD_0132,2022-09-05,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0132,2023-05-11,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0132,2023-12-07,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0132,2024-03-15,Medication management,99215,182834008,581477,Management
+AD_0132,2024-03-24,Memory training,97532,410172006,4059388,Cognitive
+AD_0132,2025-07-12,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0133,2022-10-22,Memory training,97532,410172006,4059388,Cognitive
+AD_0133,2022-11-02,Memory training,97532,410172006,4059388,Cognitive
+AD_0133,2023-01-23,Medication management,99215,182834008,581477,Management
+AD_0133,2023-05-04,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0133,2024-02-08,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0133,2024-07-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0134,2019-02-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0134,2019-04-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0134,2020-04-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0134,2020-10-27,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0134,2020-10-29,Memory training,97532,410172006,4059388,Cognitive
+AD_0134,2021-02-28,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0134,2021-09-11,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0134,2022-06-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0134,2022-10-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0134,2023-02-20,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0134,2024-05-13,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0134,2025-02-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0134,2025-05-21,Medication management,99215,182834008,581477,Management
+AD_0134,2025-11-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0135,2024-02-01,Medication management,99215,182834008,581477,Management
+AD_0135,2025-02-14,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0135,2025-05-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0135,2025-05-19,Medication management,99215,182834008,581477,Management
+AD_0135,2025-06-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0135,2025-07-24,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0135,2025-11-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0136,2019-07-30,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0136,2019-09-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0136,2020-09-01,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0136,2020-09-26,Memory training,97532,410172006,4059388,Cognitive
+AD_0136,2022-02-23,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0136,2022-10-21,Medication management,99215,182834008,581477,Management
+AD_0136,2023-03-13,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0136,2023-05-21,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0136,2023-07-02,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0136,2025-10-14,Medication management,99215,182834008,581477,Management
+AD_0137,2016-10-15,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0137,2017-02-27,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0137,2018-08-01,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0137,2019-01-01,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0137,2019-03-20,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0137,2019-07-11,Memory training,97532,410172006,4059388,Cognitive
+AD_0137,2019-08-07,Memory training,97532,410172006,4059388,Cognitive
+AD_0137,2019-08-19,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0137,2020-04-24,Memory training,97532,410172006,4059388,Cognitive
+AD_0137,2020-09-27,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0137,2021-10-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0137,2023-10-10,Memory training,97532,410172006,4059388,Cognitive
+AD_0137,2023-12-12,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0137,2024-01-21,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0137,2025-07-02,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0138,2022-10-23,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0138,2022-10-23,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0138,2022-11-04,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0138,2023-06-02,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0138,2023-07-31,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0138,2023-09-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0138,2023-10-11,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0138,2023-10-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0138,2024-01-18,Memory training,97532,410172006,4059388,Cognitive
+AD_0138,2024-02-12,Memory training,97532,410172006,4059388,Cognitive
+AD_0138,2024-03-23,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0138,2024-03-29,Memory training,97532,410172006,4059388,Cognitive
+AD_0138,2024-05-12,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0138,2024-08-13,Memory training,97532,410172006,4059388,Cognitive
+AD_0138,2025-09-29,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0139,2016-12-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0139,2017-02-15,Memory training,97532,410172006,4059388,Cognitive
+AD_0139,2017-11-25,Medication management,99215,182834008,581477,Management
+AD_0139,2018-05-31,Medication management,99215,182834008,581477,Management
+AD_0139,2019-03-10,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0139,2019-07-11,Medication management,99215,182834008,581477,Management
+AD_0139,2020-05-20,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0139,2021-01-29,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0139,2021-09-08,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0139,2021-11-09,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0139,2024-10-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0139,2025-09-21,Memory training,97532,410172006,4059388,Cognitive
+AD_0140,2022-09-24,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0140,2022-10-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0140,2022-12-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0140,2023-06-28,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0140,2023-09-28,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0140,2023-10-25,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0140,2024-04-24,Memory training,97532,410172006,4059388,Cognitive
+AD_0140,2025-01-09,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0141,2020-03-31,Memory training,97532,410172006,4059388,Cognitive
+AD_0141,2020-07-06,Memory training,97532,410172006,4059388,Cognitive
+AD_0141,2021-02-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0141,2021-02-15,Memory training,97532,410172006,4059388,Cognitive
+AD_0141,2021-02-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0141,2021-04-27,Memory training,97532,410172006,4059388,Cognitive
+AD_0141,2021-07-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0141,2021-09-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0141,2022-06-23,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0141,2022-10-23,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0141,2024-01-27,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0141,2024-03-30,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0141,2024-05-21,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0141,2024-06-07,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0141,2025-03-02,Memory training,97532,410172006,4059388,Cognitive
+AD_0142,2018-01-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0142,2020-10-12,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0142,2020-12-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0142,2021-02-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0142,2022-01-03,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0142,2022-02-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0142,2022-04-03,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0142,2023-02-12,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0142,2023-02-21,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0142,2024-05-31,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0142,2024-11-29,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0142,2025-04-14,Memory training,97532,410172006,4059388,Cognitive
+AD_0143,2021-02-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0143,2021-04-04,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0143,2021-11-16,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0143,2022-08-12,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0143,2023-03-04,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0143,2023-08-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0143,2023-12-14,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0143,2024-07-14,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0143,2024-12-23,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0143,2025-01-30,Medication management,99215,182834008,581477,Management
+AD_0143,2025-05-15,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0143,2025-05-19,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0144,2021-09-01,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0144,2021-11-30,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0144,2022-02-07,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0144,2022-05-27,Medication management,99215,182834008,581477,Management
+AD_0144,2024-01-01,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0144,2024-04-12,Medication management,99215,182834008,581477,Management
+AD_0144,2024-06-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0144,2024-07-23,Medication management,99215,182834008,581477,Management
+AD_0144,2025-04-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0144,2025-07-03,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0144,2025-08-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0144,2025-08-25,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0145,2020-12-12,Medication management,99215,182834008,581477,Management
+AD_0145,2021-01-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0145,2022-10-08,Memory training,97532,410172006,4059388,Cognitive
+AD_0145,2024-01-10,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0145,2024-08-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0146,2023-08-10,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0146,2023-09-13,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0146,2023-10-28,Medication management,99215,182834008,581477,Management
+AD_0146,2024-05-19,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0146,2024-05-20,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0146,2024-08-02,Memory training,97532,410172006,4059388,Cognitive
+AD_0146,2024-08-05,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0146,2024-09-28,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0146,2024-10-20,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0146,2024-12-11,Medication management,99215,182834008,581477,Management
+AD_0146,2025-05-30,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0146,2025-07-11,Memory training,97532,410172006,4059388,Cognitive
+AD_0146,2025-07-20,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0146,2025-09-06,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0146,2025-10-18,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0147,2019-03-30,Medication management,99215,182834008,581477,Management
+AD_0147,2021-05-26,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0147,2022-09-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0147,2022-11-29,Medication management,99215,182834008,581477,Management
+AD_0147,2023-03-21,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0148,2021-04-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0148,2021-10-23,Memory training,97532,410172006,4059388,Cognitive
+AD_0148,2022-02-22,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0148,2022-07-25,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0148,2022-09-04,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0148,2022-11-09,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0148,2022-12-23,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0148,2023-01-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0148,2023-01-23,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0148,2023-05-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0148,2023-12-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0148,2024-04-07,Memory training,97532,410172006,4059388,Cognitive
+AD_0148,2025-05-05,Memory training,97532,410172006,4059388,Cognitive
+AD_0148,2025-07-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0149,2018-08-21,Memory training,97532,410172006,4059388,Cognitive
+AD_0149,2019-06-07,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0149,2019-12-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0149,2020-06-12,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0149,2020-09-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0149,2021-11-20,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0149,2022-02-02,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0149,2022-07-29,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0149,2024-08-10,Memory training,97532,410172006,4059388,Cognitive
+AD_0149,2024-10-12,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0149,2025-03-12,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0149,2025-11-10,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0149,2025-11-22,Medication management,99215,182834008,581477,Management
+AD_0150,2020-11-19,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0150,2021-02-18,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0150,2021-03-04,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0150,2021-11-22,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0150,2023-03-16,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0150,2023-06-08,Memory training,97532,410172006,4059388,Cognitive
+AD_0150,2023-10-06,Medication management,99215,182834008,581477,Management
+AD_0150,2023-11-16,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0150,2024-03-15,Memory training,97532,410172006,4059388,Cognitive
+AD_0151,2017-01-11,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0151,2017-01-15,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0151,2018-01-03,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0151,2018-06-24,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0151,2021-08-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0151,2021-09-09,Memory training,97532,410172006,4059388,Cognitive
+AD_0151,2021-09-16,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0151,2021-12-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0151,2022-03-03,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0151,2023-07-31,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0151,2023-09-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0151,2024-04-07,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0151,2024-04-22,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0151,2025-01-30,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0152,2023-01-13,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0152,2023-05-22,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0152,2023-05-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0152,2023-06-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0152,2023-12-17,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0152,2024-10-25,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0152,2024-11-16,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0152,2025-01-08,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0153,2019-01-13,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0153,2019-01-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0153,2019-10-07,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0153,2020-02-07,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0153,2020-04-26,Memory training,97532,410172006,4059388,Cognitive
+AD_0153,2020-10-31,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0153,2021-07-12,Medication management,99215,182834008,581477,Management
+AD_0153,2023-06-14,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0153,2023-07-26,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0153,2023-12-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0153,2024-03-20,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0154,2022-08-14,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0154,2022-08-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0154,2022-08-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0154,2022-11-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0154,2023-03-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0154,2023-06-03,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0154,2024-05-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0154,2024-09-03,Medication management,99215,182834008,581477,Management
+AD_0154,2024-11-15,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0154,2025-08-22,Memory training,97532,410172006,4059388,Cognitive
+AD_0155,2021-10-02,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0155,2022-05-23,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0155,2022-09-18,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0155,2023-02-09,Memory training,97532,410172006,4059388,Cognitive
+AD_0155,2023-05-26,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0155,2023-08-12,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0155,2023-10-20,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0155,2024-01-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0155,2024-05-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0155,2024-09-02,Memory training,97532,410172006,4059388,Cognitive
+AD_0155,2025-08-04,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0155,2025-09-25,Memory training,97532,410172006,4059388,Cognitive
+AD_0155,2025-10-23,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0156,2022-08-15,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0156,2023-07-30,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0156,2023-08-20,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0156,2023-12-15,Medication management,99215,182834008,581477,Management
+AD_0156,2024-12-04,Medication management,99215,182834008,581477,Management
+AD_0157,2023-10-14,Memory training,97532,410172006,4059388,Cognitive
+AD_0157,2023-11-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0157,2024-01-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0157,2024-07-20,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0157,2025-01-12,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0157,2025-02-05,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0157,2025-03-12,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0157,2025-03-29,Memory training,97532,410172006,4059388,Cognitive
+AD_0157,2025-10-02,Medication management,99215,182834008,581477,Management
+AD_0158,2020-04-10,Memory training,97532,410172006,4059388,Cognitive
+AD_0158,2020-06-18,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0158,2020-09-22,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0158,2020-10-31,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0158,2020-12-05,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0158,2021-04-02,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0158,2021-04-02,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0158,2021-05-26,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0158,2022-02-27,Memory training,97532,410172006,4059388,Cognitive
+AD_0158,2023-01-15,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0158,2023-03-02,Memory training,97532,410172006,4059388,Cognitive
+AD_0158,2023-06-21,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0158,2024-04-16,Memory training,97532,410172006,4059388,Cognitive
+AD_0159,2022-07-05,Medication management,99215,182834008,581477,Management
+AD_0159,2022-07-06,Memory training,97532,410172006,4059388,Cognitive
+AD_0159,2022-07-10,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0159,2022-11-04,Memory training,97532,410172006,4059388,Cognitive
+AD_0159,2022-12-07,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0159,2023-06-11,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0159,2024-02-29,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0159,2024-11-28,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0159,2024-12-12,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0159,2025-02-16,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0160,2018-09-24,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0160,2020-01-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0160,2020-04-04,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0160,2021-11-22,Medication management,99215,182834008,581477,Management
+AD_0160,2022-12-05,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0160,2023-01-30,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0160,2024-01-01,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0160,2024-05-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0160,2025-03-17,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0160,2025-07-09,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0160,2025-07-15,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0160,2025-08-07,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0161,2018-09-07,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0161,2018-12-14,Medication management,99215,182834008,581477,Management
+AD_0161,2019-04-07,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0161,2019-08-04,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0161,2020-02-20,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0161,2021-09-24,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0161,2021-10-13,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0161,2021-11-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0161,2021-11-08,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0161,2022-07-28,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0161,2022-12-09,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0161,2023-07-21,Memory training,97532,410172006,4059388,Cognitive
+AD_0161,2025-02-21,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0161,2025-09-26,Memory training,97532,410172006,4059388,Cognitive
+AD_0161,2025-10-08,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0162,2018-09-24,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0162,2018-12-30,Memory training,97532,410172006,4059388,Cognitive
+AD_0162,2019-03-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0162,2020-11-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0162,2021-01-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0162,2021-02-21,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0162,2021-06-21,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0162,2022-10-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0162,2024-01-20,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0162,2024-03-25,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0162,2024-09-07,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0162,2025-01-05,Medication management,99215,182834008,581477,Management
+AD_0162,2025-04-16,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0162,2025-08-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0163,2019-08-11,Medication management,99215,182834008,581477,Management
+AD_0163,2020-09-24,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0163,2020-10-22,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0163,2020-11-28,Memory training,97532,410172006,4059388,Cognitive
+AD_0163,2020-12-12,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0163,2021-02-03,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0163,2022-01-27,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0163,2022-06-05,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0163,2023-09-30,Memory training,97532,410172006,4059388,Cognitive
+AD_0163,2024-01-08,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0163,2024-03-12,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0163,2024-08-20,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0163,2024-10-01,Medication management,99215,182834008,581477,Management
+AD_0163,2024-10-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0164,2019-12-23,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0164,2020-10-21,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0164,2023-01-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0164,2023-04-11,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0164,2023-07-18,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0164,2023-09-14,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0164,2024-01-26,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0164,2024-04-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0164,2024-07-17,Memory training,97532,410172006,4059388,Cognitive
+AD_0164,2024-11-11,Medication management,99215,182834008,581477,Management
+AD_0164,2024-12-06,Medication management,99215,182834008,581477,Management
+AD_0164,2025-01-05,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0164,2025-07-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0164,2025-10-11,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0164,2025-10-15,Memory training,97532,410172006,4059388,Cognitive
+AD_0165,2020-04-03,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0165,2020-07-03,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0165,2024-02-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0165,2024-03-07,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0165,2025-07-14,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0166,2022-08-12,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0166,2022-12-19,Medication management,99215,182834008,581477,Management
+AD_0166,2023-01-18,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0166,2023-01-29,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0166,2023-03-31,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0166,2023-07-31,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0166,2023-08-09,Memory training,97532,410172006,4059388,Cognitive
+AD_0166,2023-12-18,Memory training,97532,410172006,4059388,Cognitive
+AD_0166,2024-02-27,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0166,2024-03-04,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0166,2024-04-26,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0166,2024-08-17,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0166,2024-11-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0166,2025-02-16,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0166,2025-09-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0167,2024-03-13,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0167,2024-05-08,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0167,2024-08-14,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0167,2024-10-22,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0167,2024-12-01,Memory training,97532,410172006,4059388,Cognitive
+AD_0167,2024-12-24,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0167,2024-12-27,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0167,2025-02-24,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0167,2025-07-19,Memory training,97532,410172006,4059388,Cognitive
+AD_0168,2018-03-02,Medication management,99215,182834008,581477,Management
+AD_0168,2018-12-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0168,2019-04-26,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0168,2019-07-15,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0168,2020-12-27,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0168,2021-02-04,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0168,2021-05-28,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0168,2022-11-22,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0168,2023-05-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0168,2023-05-31,Memory training,97532,410172006,4059388,Cognitive
+AD_0168,2025-03-16,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0168,2025-04-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0168,2025-06-01,Medication management,99215,182834008,581477,Management
+AD_0168,2025-08-30,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0169,2020-12-21,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0169,2022-01-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0169,2023-11-20,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0169,2023-12-13,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0169,2024-12-22,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0170,2021-05-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0170,2021-07-13,Medication management,99215,182834008,581477,Management
+AD_0170,2021-08-13,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0170,2021-10-06,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0170,2022-07-23,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0170,2022-10-13,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0170,2022-10-29,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0170,2023-01-18,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0170,2023-08-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0170,2023-09-16,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0170,2024-07-01,Medication management,99215,182834008,581477,Management
+AD_0170,2024-09-20,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0170,2025-02-21,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0170,2025-05-14,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0170,2025-11-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0171,2021-05-14,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0171,2021-09-24,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0171,2021-10-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0171,2022-04-17,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0171,2022-06-25,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0171,2023-06-06,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0171,2024-08-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0171,2024-12-24,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0171,2025-01-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0171,2025-04-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0171,2025-07-29,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0171,2025-08-27,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0172,2021-01-14,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0172,2021-06-20,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0172,2021-09-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0172,2021-11-02,Medication management,99215,182834008,581477,Management
+AD_0172,2022-01-08,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0172,2023-05-24,Memory training,97532,410172006,4059388,Cognitive
+AD_0172,2023-06-18,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0172,2023-12-20,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0172,2024-02-23,Medication management,99215,182834008,581477,Management
+AD_0172,2024-12-04,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0172,2025-12-02,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0173,2018-11-27,Memory training,97532,410172006,4059388,Cognitive
+AD_0173,2019-08-18,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0173,2022-01-26,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0173,2022-04-17,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0173,2022-12-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0173,2025-11-20,Memory training,97532,410172006,4059388,Cognitive
+AD_0174,2021-03-16,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0174,2021-08-01,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0174,2023-04-20,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0174,2023-07-03,Memory training,97532,410172006,4059388,Cognitive
+AD_0174,2025-08-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0175,2019-01-22,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0175,2019-07-27,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0175,2022-05-21,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0175,2022-06-23,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0175,2023-08-24,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0175,2023-10-31,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0175,2024-03-06,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0175,2025-08-04,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0175,2025-11-24,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0176,2016-09-02,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0176,2017-09-07,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0176,2019-03-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0176,2019-03-24,Medication management,99215,182834008,581477,Management
+AD_0176,2021-03-23,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0176,2021-04-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0176,2022-03-24,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0176,2022-07-11,Memory training,97532,410172006,4059388,Cognitive
+AD_0176,2023-11-08,Medication management,99215,182834008,581477,Management
+AD_0176,2025-11-29,Medication management,99215,182834008,581477,Management
+AD_0177,2020-01-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0177,2021-06-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0177,2021-10-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0177,2021-12-07,Medication management,99215,182834008,581477,Management
+AD_0177,2022-06-16,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0177,2022-08-20,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0177,2023-01-29,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0177,2024-02-04,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0177,2024-05-24,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0177,2024-07-08,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0177,2025-07-05,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0177,2025-09-25,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0178,2022-01-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0178,2022-07-22,Medication management,99215,182834008,581477,Management
+AD_0178,2022-11-13,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0178,2023-02-26,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0178,2023-04-24,Memory training,97532,410172006,4059388,Cognitive
+AD_0178,2024-06-21,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0178,2024-08-18,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0178,2025-04-11,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0178,2025-07-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0178,2025-07-15,Medication management,99215,182834008,581477,Management
+AD_0179,2020-09-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0179,2023-04-29,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0179,2023-05-11,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0179,2024-07-10,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0179,2024-09-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0179,2024-11-06,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0179,2024-12-28,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0179,2025-06-29,Medication management,99215,182834008,581477,Management
+AD_0179,2025-07-05,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0180,2020-08-21,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0180,2021-04-12,Medication management,99215,182834008,581477,Management
+AD_0180,2021-10-05,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0180,2021-12-12,Medication management,99215,182834008,581477,Management
+AD_0180,2023-04-29,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0180,2023-11-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0180,2024-03-12,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0180,2024-05-20,Memory training,97532,410172006,4059388,Cognitive
+AD_0180,2024-05-27,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0180,2024-10-07,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0180,2025-02-24,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0180,2025-03-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0181,2022-11-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0181,2023-05-16,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0181,2024-10-04,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0181,2024-11-24,Memory training,97532,410172006,4059388,Cognitive
+AD_0181,2024-12-04,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0181,2025-02-02,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0181,2025-04-17,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0181,2025-05-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0181,2025-08-11,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0181,2025-10-01,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0181,2025-10-10,Medication management,99215,182834008,581477,Management
+AD_0181,2025-10-25,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0181,2025-12-03,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0182,2023-06-12,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0182,2023-08-04,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0182,2023-12-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0182,2024-01-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0182,2024-05-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0182,2024-06-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0182,2024-11-01,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0182,2025-02-10,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0182,2025-03-03,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0182,2025-08-19,Memory training,97532,410172006,4059388,Cognitive
+AD_0182,2025-12-02,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0183,2020-08-22,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0183,2022-09-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0183,2022-11-21,Medication management,99215,182834008,581477,Management
+AD_0183,2022-12-03,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0183,2023-08-01,Medication management,99215,182834008,581477,Management
+AD_0183,2023-11-16,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0183,2024-02-24,Memory training,97532,410172006,4059388,Cognitive
+AD_0183,2024-03-28,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0183,2024-10-03,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0183,2025-09-21,Memory training,97532,410172006,4059388,Cognitive
+AD_0184,2019-03-01,Medication management,99215,182834008,581477,Management
+AD_0184,2019-05-24,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0184,2020-01-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0184,2020-08-11,Medication management,99215,182834008,581477,Management
+AD_0184,2021-12-03,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0184,2022-02-12,Medication management,99215,182834008,581477,Management
+AD_0184,2022-09-23,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0184,2024-01-08,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0184,2025-09-19,Medication management,99215,182834008,581477,Management
+AD_0185,2018-06-02,Medication management,99215,182834008,581477,Management
+AD_0185,2019-09-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0185,2020-04-10,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0185,2020-05-27,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0185,2021-10-17,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0185,2022-01-09,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0185,2022-08-21,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0185,2022-11-09,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0185,2023-07-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0185,2024-10-28,Memory training,97532,410172006,4059388,Cognitive
+AD_0186,2016-09-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0186,2017-05-12,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0186,2018-02-28,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0186,2019-02-17,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0186,2019-10-14,Medication management,99215,182834008,581477,Management
+AD_0186,2020-11-01,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0186,2022-03-11,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0186,2022-07-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0186,2023-09-20,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0186,2024-10-30,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0186,2025-03-10,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0186,2025-04-18,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0187,2022-06-04,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0187,2022-07-17,Medication management,99215,182834008,581477,Management
+AD_0187,2022-10-19,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0187,2022-11-30,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0187,2023-04-14,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0187,2023-10-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0187,2023-10-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0187,2023-12-23,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0187,2024-01-08,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0187,2024-11-21,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0187,2025-11-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0188,2023-03-11,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0188,2023-09-14,Medication management,99215,182834008,581477,Management
+AD_0188,2023-09-15,Medication management,99215,182834008,581477,Management
+AD_0188,2024-01-13,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0188,2024-09-30,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0188,2025-04-11,Medication management,99215,182834008,581477,Management
+AD_0188,2025-06-17,Medication management,99215,182834008,581477,Management
+AD_0189,2018-01-14,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0189,2018-05-04,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0189,2019-06-02,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0189,2021-05-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0189,2021-05-19,Medication management,99215,182834008,581477,Management
+AD_0189,2022-06-18,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0189,2023-02-09,Memory training,97532,410172006,4059388,Cognitive
+AD_0189,2025-03-25,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0190,2021-09-15,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0190,2021-12-14,Memory training,97532,410172006,4059388,Cognitive
+AD_0190,2023-02-28,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0190,2024-10-05,Medication management,99215,182834008,581477,Management
+AD_0190,2025-06-18,Medication management,99215,182834008,581477,Management
+AD_0191,2023-06-22,Memory training,97532,410172006,4059388,Cognitive
+AD_0191,2023-08-16,Memory training,97532,410172006,4059388,Cognitive
+AD_0191,2023-09-05,Memory training,97532,410172006,4059388,Cognitive
+AD_0191,2024-02-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0191,2024-02-18,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0191,2024-09-05,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0191,2025-02-01,Medication management,99215,182834008,581477,Management
+AD_0191,2025-03-05,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0191,2025-05-25,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0191,2025-07-09,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0191,2025-09-07,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0191,2025-10-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0191,2025-10-20,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0191,2025-10-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0191,2025-11-24,Medication management,99215,182834008,581477,Management
+AD_0192,2017-07-03,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0192,2017-12-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0192,2018-01-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0192,2018-08-10,Medication management,99215,182834008,581477,Management
+AD_0192,2020-03-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0192,2020-05-17,Medication management,99215,182834008,581477,Management
+AD_0192,2020-08-22,Memory training,97532,410172006,4059388,Cognitive
+AD_0192,2021-09-10,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0192,2022-09-26,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0192,2022-12-21,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0192,2024-01-31,Memory training,97532,410172006,4059388,Cognitive
+AD_0192,2024-04-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0192,2024-12-11,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0192,2025-01-07,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0192,2025-11-17,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0193,2019-10-03,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0193,2020-11-22,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0193,2021-03-02,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0193,2023-01-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0193,2023-05-05,Memory training,97532,410172006,4059388,Cognitive
+AD_0193,2023-10-31,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0193,2024-02-09,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0193,2024-03-17,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0193,2024-06-05,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0193,2024-11-02,Memory training,97532,410172006,4059388,Cognitive
+AD_0193,2024-12-26,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0193,2025-05-14,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0194,2023-07-18,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0194,2023-08-05,Medication management,99215,182834008,581477,Management
+AD_0194,2023-08-22,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0194,2023-09-03,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0194,2023-11-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0194,2023-11-11,Medication management,99215,182834008,581477,Management
+AD_0194,2024-02-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0194,2024-05-02,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0194,2024-06-14,Memory training,97532,410172006,4059388,Cognitive
+AD_0194,2024-07-26,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0194,2024-09-15,Memory training,97532,410172006,4059388,Cognitive
+AD_0194,2025-03-11,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0194,2025-06-15,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0194,2025-09-14,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0195,2022-10-11,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0195,2023-01-24,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0195,2023-04-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0195,2023-12-10,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0195,2024-01-31,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0195,2024-07-29,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0195,2024-09-01,Medication management,99215,182834008,581477,Management
+AD_0195,2025-02-18,Memory training,97532,410172006,4059388,Cognitive
+AD_0195,2025-02-18,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0196,2018-06-20,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0196,2020-06-01,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0196,2021-01-13,Medication management,99215,182834008,581477,Management
+AD_0196,2022-01-02,Memory training,97532,410172006,4059388,Cognitive
+AD_0196,2022-03-31,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0196,2022-09-10,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0197,2019-07-05,Medication management,99215,182834008,581477,Management
+AD_0197,2020-05-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0197,2021-09-17,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0197,2024-05-08,Medication management,99215,182834008,581477,Management
+AD_0197,2025-06-05,Memory training,97532,410172006,4059388,Cognitive
+AD_0197,2025-10-21,Memory training,97532,410172006,4059388,Cognitive
+AD_0198,2021-08-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0198,2023-09-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0198,2023-09-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0198,2023-11-14,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0198,2023-12-30,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0198,2024-11-30,Memory training,97532,410172006,4059388,Cognitive
+AD_0198,2025-01-17,Medication management,99215,182834008,581477,Management
+AD_0198,2025-08-20,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0199,2019-02-18,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0199,2020-09-11,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0199,2021-05-02,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0199,2022-09-04,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0199,2025-01-31,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0199,2025-09-30,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0199,2025-10-15,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0199,2025-11-24,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0200,2022-02-02,Medication management,99215,182834008,581477,Management
+AD_0200,2022-03-08,Medication management,99215,182834008,581477,Management
+AD_0200,2022-05-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0200,2022-07-10,Medication management,99215,182834008,581477,Management
+AD_0200,2022-10-22,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0200,2023-01-13,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+AD_0200,2023-01-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+AD_0200,2023-06-03,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0200,2023-09-08,Memory training,97532,410172006,4059388,Cognitive
+AD_0200,2023-09-27,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0200,2024-05-07,Neuropsychological testing,96132,443730003,2721045,Assessment
+AD_0200,2024-09-18,Speech therapy,92507,80092005,2721044,Rehabilitation
+AD_0200,2024-11-17,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0200,2024-12-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+AD_0200,2025-11-12,Speech therapy,92507,80092005,2721044,Rehabilitation

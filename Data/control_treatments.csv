@@ -1,0 +1,587 @@
+PatientID,DateOfService,ProcedureName,CPT_Code,SNOMED_Code,OMOP_ConceptID,Category
+CTRL_0001,2023-09-20,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0001,2023-12-18,Medication management,99215,182834008,581477,Management
+CTRL_0001,2024-03-28,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0001,2024-08-22,Medication management,99215,182834008,581477,Management
+CTRL_0002,2024-10-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0003,2024-06-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0003,2025-03-10,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0003,2025-09-28,Medication management,99215,182834008,581477,Management
+CTRL_0004,2025-09-05,Medication management,99215,182834008,581477,Management
+CTRL_0005,2025-04-24,Medication management,99215,182834008,581477,Management
+CTRL_0006,2022-08-31,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0006,2022-12-19,Medication management,99215,182834008,581477,Management
+CTRL_0006,2023-02-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0006,2023-04-26,Medication management,99215,182834008,581477,Management
+CTRL_0007,2024-11-29,Medication management,99215,182834008,581477,Management
+CTRL_0007,2024-12-28,Medication management,99215,182834008,581477,Management
+CTRL_0007,2025-06-19,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0008,2025-05-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0009,2023-09-24,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0009,2023-12-29,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0010,2023-12-29,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0010,2024-04-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0010,2024-06-22,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0010,2024-08-05,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0010,2024-09-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0011,2023-04-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0011,2024-01-12,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0011,2025-02-25,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0012,2025-01-13,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0012,2025-07-08,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0013,2023-08-16,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0013,2025-01-02,Medication management,99215,182834008,581477,Management
+CTRL_0013,2025-01-28,Medication management,99215,182834008,581477,Management
+CTRL_0013,2025-06-07,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0013,2025-11-25,Medication management,99215,182834008,581477,Management
+CTRL_0014,2023-01-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0014,2024-03-20,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0014,2024-07-06,Medication management,99215,182834008,581477,Management
+CTRL_0014,2025-09-10,Medication management,99215,182834008,581477,Management
+CTRL_0015,2023-01-05,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0015,2023-05-14,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0016,2024-04-21,Medication management,99215,182834008,581477,Management
+CTRL_0016,2024-09-07,Medication management,99215,182834008,581477,Management
+CTRL_0016,2025-03-11,Medication management,99215,182834008,581477,Management
+CTRL_0016,2025-06-16,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0017,2024-03-28,Medication management,99215,182834008,581477,Management
+CTRL_0018,2024-12-05,Medication management,99215,182834008,581477,Management
+CTRL_0019,2024-03-27,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0019,2024-07-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0020,2023-06-09,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0020,2024-03-22,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0020,2025-09-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0021,2024-02-09,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0021,2024-05-05,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0021,2024-11-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0021,2025-07-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0021,2025-08-08,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0022,2025-10-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0023,2022-10-29,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0023,2023-08-23,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0023,2024-04-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0023,2024-09-08,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0023,2025-01-24,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0024,2024-10-11,Medication management,99215,182834008,581477,Management
+CTRL_0024,2024-12-08,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0024,2025-05-13,Medication management,99215,182834008,581477,Management
+CTRL_0024,2025-05-23,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0024,2025-09-04,Medication management,99215,182834008,581477,Management
+CTRL_0025,2022-05-03,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0026,2023-11-24,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0026,2024-10-01,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0026,2025-02-22,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0027,2024-03-20,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0027,2024-06-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0027,2024-12-22,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0028,2025-09-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0029,2023-10-08,Medication management,99215,182834008,581477,Management
+CTRL_0029,2024-10-22,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0029,2025-04-17,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0030,2025-05-05,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0031,2023-04-22,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0031,2023-06-03,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0031,2024-04-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0031,2025-03-01,Medication management,99215,182834008,581477,Management
+CTRL_0032,2024-05-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0032,2024-09-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0032,2024-10-27,Medication management,99215,182834008,581477,Management
+CTRL_0033,2021-03-07,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0033,2025-07-14,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0033,2025-09-02,Medication management,99215,182834008,581477,Management
+CTRL_0034,2022-03-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0034,2023-01-20,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0034,2024-08-01,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0034,2025-08-09,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0035,2024-05-05,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0035,2025-06-22,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0035,2025-08-03,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0036,2023-08-26,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0036,2024-01-03,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0036,2025-02-16,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0037,2025-02-02,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0037,2025-06-02,Medication management,99215,182834008,581477,Management
+CTRL_0037,2025-08-14,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0037,2025-09-03,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0038,2025-05-24,Medication management,99215,182834008,581477,Management
+CTRL_0039,2023-10-02,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0039,2023-12-13,Medication management,99215,182834008,581477,Management
+CTRL_0039,2024-09-13,Medication management,99215,182834008,581477,Management
+CTRL_0039,2025-10-12,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0040,2022-03-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0040,2023-01-27,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0040,2023-10-11,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0040,2025-01-31,Medication management,99215,182834008,581477,Management
+CTRL_0040,2025-10-13,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0041,2021-10-08,Medication management,99215,182834008,581477,Management
+CTRL_0042,2022-05-02,Medication management,99215,182834008,581477,Management
+CTRL_0042,2023-03-18,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0042,2023-05-20,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0042,2024-07-03,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0042,2025-01-03,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0043,2021-09-16,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0044,2024-01-05,Medication management,99215,182834008,581477,Management
+CTRL_0044,2024-09-21,Medication management,99215,182834008,581477,Management
+CTRL_0044,2024-12-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0045,2023-09-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0045,2023-12-23,Medication management,99215,182834008,581477,Management
+CTRL_0045,2024-07-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0045,2024-09-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0045,2024-09-18,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0046,2022-02-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0046,2025-03-01,Medication management,99215,182834008,581477,Management
+CTRL_0047,2022-04-15,Medication management,99215,182834008,581477,Management
+CTRL_0047,2022-08-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0047,2023-01-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0047,2023-01-26,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0047,2023-02-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0048,2024-10-26,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0049,2024-01-08,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0050,2022-09-02,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0050,2022-10-02,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0051,2025-01-27,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0051,2025-02-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0051,2025-06-02,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0051,2025-07-24,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0052,2024-03-09,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0052,2024-07-02,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0052,2024-07-20,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0052,2025-08-12,Medication management,99215,182834008,581477,Management
+CTRL_0053,2024-11-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0053,2025-11-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0054,2023-08-22,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0054,2023-12-08,Medication management,99215,182834008,581477,Management
+CTRL_0054,2025-01-30,Medication management,99215,182834008,581477,Management
+CTRL_0054,2025-04-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0054,2025-07-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0055,2022-03-23,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0055,2022-06-17,Medication management,99215,182834008,581477,Management
+CTRL_0055,2022-09-06,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0055,2023-11-10,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0055,2025-06-10,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0056,2022-12-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0056,2024-08-02,Medication management,99215,182834008,581477,Management
+CTRL_0056,2025-06-07,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0056,2025-07-29,Medication management,99215,182834008,581477,Management
+CTRL_0057,2024-02-27,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0057,2024-04-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0057,2025-10-20,Medication management,99215,182834008,581477,Management
+CTRL_0058,2022-12-31,Medication management,99215,182834008,581477,Management
+CTRL_0058,2023-03-10,Medication management,99215,182834008,581477,Management
+CTRL_0058,2023-11-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0058,2024-04-15,Medication management,99215,182834008,581477,Management
+CTRL_0059,2022-11-23,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0059,2023-02-21,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0059,2025-06-28,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0060,2022-12-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0060,2023-02-23,Medication management,99215,182834008,581477,Management
+CTRL_0060,2023-04-14,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0060,2023-04-23,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0061,2024-03-25,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0061,2024-07-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0061,2024-12-07,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0061,2025-08-07,Medication management,99215,182834008,581477,Management
+CTRL_0061,2025-09-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0062,2024-04-28,Medication management,99215,182834008,581477,Management
+CTRL_0062,2025-04-02,Medication management,99215,182834008,581477,Management
+CTRL_0063,2024-01-08,Medication management,99215,182834008,581477,Management
+CTRL_0063,2024-06-10,Medication management,99215,182834008,581477,Management
+CTRL_0063,2024-12-31,Medication management,99215,182834008,581477,Management
+CTRL_0064,2022-05-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0064,2024-10-02,Medication management,99215,182834008,581477,Management
+CTRL_0065,2023-07-22,Medication management,99215,182834008,581477,Management
+CTRL_0065,2024-05-02,Medication management,99215,182834008,581477,Management
+CTRL_0065,2024-07-31,Medication management,99215,182834008,581477,Management
+CTRL_0065,2025-02-19,Medication management,99215,182834008,581477,Management
+CTRL_0066,2025-03-17,Medication management,99215,182834008,581477,Management
+CTRL_0066,2025-05-21,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0066,2025-06-28,Medication management,99215,182834008,581477,Management
+CTRL_0066,2025-11-30,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0067,2024-07-19,Medication management,99215,182834008,581477,Management
+CTRL_0067,2024-08-11,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0067,2024-09-30,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0067,2025-05-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0067,2025-10-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0068,2024-05-19,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0068,2024-06-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0068,2025-04-01,Medication management,99215,182834008,581477,Management
+CTRL_0069,2024-10-24,Medication management,99215,182834008,581477,Management
+CTRL_0069,2025-02-06,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0069,2025-06-16,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0070,2025-01-06,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0070,2025-03-10,Medication management,99215,182834008,581477,Management
+CTRL_0070,2025-08-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0071,2024-04-13,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0072,2023-10-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0072,2024-06-24,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0072,2024-07-11,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0072,2025-11-20,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0073,2024-07-13,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0074,2022-02-04,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0074,2022-03-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0074,2022-10-26,Medication management,99215,182834008,581477,Management
+CTRL_0074,2023-11-27,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0074,2025-10-20,Medication management,99215,182834008,581477,Management
+CTRL_0075,2024-10-07,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0075,2025-11-03,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0076,2024-12-10,Medication management,99215,182834008,581477,Management
+CTRL_0077,2024-02-23,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0077,2024-11-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0077,2025-01-24,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0077,2025-04-14,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0077,2025-04-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0078,2024-05-13,Medication management,99215,182834008,581477,Management
+CTRL_0078,2024-07-12,Medication management,99215,182834008,581477,Management
+CTRL_0078,2024-08-30,Medication management,99215,182834008,581477,Management
+CTRL_0078,2025-01-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0078,2025-09-14,Medication management,99215,182834008,581477,Management
+CTRL_0079,2025-02-09,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0080,2023-12-15,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0081,2024-01-02,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0081,2025-10-27,Medication management,99215,182834008,581477,Management
+CTRL_0082,2022-07-13,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0082,2022-09-05,Medication management,99215,182834008,581477,Management
+CTRL_0082,2022-10-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0082,2023-06-21,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0083,2024-05-01,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0084,2024-04-19,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0084,2025-11-01,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0085,2024-12-03,Medication management,99215,182834008,581477,Management
+CTRL_0085,2025-01-07,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0085,2025-05-16,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0085,2025-08-09,Medication management,99215,182834008,581477,Management
+CTRL_0085,2025-10-20,Medication management,99215,182834008,581477,Management
+CTRL_0086,2023-01-23,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0086,2023-02-10,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0086,2023-04-10,Medication management,99215,182834008,581477,Management
+CTRL_0086,2023-04-25,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0086,2023-08-17,Medication management,99215,182834008,581477,Management
+CTRL_0087,2023-07-20,Medication management,99215,182834008,581477,Management
+CTRL_0087,2025-02-04,Medication management,99215,182834008,581477,Management
+CTRL_0088,2023-10-27,Medication management,99215,182834008,581477,Management
+CTRL_0089,2023-03-05,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0089,2023-12-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0089,2024-03-22,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0090,2023-05-30,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0090,2024-11-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0091,2025-05-21,Medication management,99215,182834008,581477,Management
+CTRL_0092,2022-08-24,Medication management,99215,182834008,581477,Management
+CTRL_0092,2024-01-09,Medication management,99215,182834008,581477,Management
+CTRL_0092,2025-07-17,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0093,2021-06-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0093,2023-12-07,Medication management,99215,182834008,581477,Management
+CTRL_0093,2024-08-31,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0094,2024-04-07,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0094,2024-04-14,Medication management,99215,182834008,581477,Management
+CTRL_0094,2024-09-29,Medication management,99215,182834008,581477,Management
+CTRL_0094,2024-11-22,Medication management,99215,182834008,581477,Management
+CTRL_0094,2025-11-29,Medication management,99215,182834008,581477,Management
+CTRL_0095,2023-05-01,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0095,2024-12-25,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0095,2025-07-26,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0095,2025-09-23,Medication management,99215,182834008,581477,Management
+CTRL_0095,2025-09-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0096,2025-05-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0096,2025-06-02,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0096,2025-10-25,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0096,2025-11-05,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0096,2025-11-17,Medication management,99215,182834008,581477,Management
+CTRL_0097,2022-10-21,Medication management,99215,182834008,581477,Management
+CTRL_0097,2022-10-31,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0097,2024-07-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0097,2024-11-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0098,2024-03-10,Medication management,99215,182834008,581477,Management
+CTRL_0099,2023-05-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0099,2025-02-22,Medication management,99215,182834008,581477,Management
+CTRL_0100,2024-08-14,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0101,2022-01-12,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0101,2022-04-03,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0101,2022-06-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0101,2022-06-24,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0101,2024-01-20,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0102,2021-08-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0102,2022-12-17,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0102,2023-02-16,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0102,2023-07-11,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0102,2024-07-20,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0103,2024-08-29,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0104,2022-10-21,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0104,2024-06-08,Medication management,99215,182834008,581477,Management
+CTRL_0104,2024-07-30,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0104,2025-09-29,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0105,2024-08-28,Medication management,99215,182834008,581477,Management
+CTRL_0105,2024-11-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0105,2025-11-09,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0106,2021-03-09,Medication management,99215,182834008,581477,Management
+CTRL_0106,2025-09-29,Medication management,99215,182834008,581477,Management
+CTRL_0107,2023-03-19,Medication management,99215,182834008,581477,Management
+CTRL_0107,2024-02-26,Medication management,99215,182834008,581477,Management
+CTRL_0107,2025-09-13,Medication management,99215,182834008,581477,Management
+CTRL_0107,2025-10-14,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0107,2025-11-20,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0108,2025-07-11,Medication management,99215,182834008,581477,Management
+CTRL_0108,2025-07-29,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0109,2023-12-04,Medication management,99215,182834008,581477,Management
+CTRL_0109,2024-03-11,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0109,2024-11-03,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0109,2025-01-12,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0109,2025-09-20,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0110,2024-10-29,Medication management,99215,182834008,581477,Management
+CTRL_0111,2022-08-22,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0111,2023-12-04,Medication management,99215,182834008,581477,Management
+CTRL_0111,2024-05-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0111,2024-07-11,Medication management,99215,182834008,581477,Management
+CTRL_0112,2022-08-27,Medication management,99215,182834008,581477,Management
+CTRL_0112,2024-06-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0112,2024-06-25,Medication management,99215,182834008,581477,Management
+CTRL_0112,2025-03-19,Medication management,99215,182834008,581477,Management
+CTRL_0113,2023-02-22,Medication management,99215,182834008,581477,Management
+CTRL_0113,2024-03-31,Medication management,99215,182834008,581477,Management
+CTRL_0114,2024-11-15,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0114,2025-01-16,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0114,2025-02-04,Medication management,99215,182834008,581477,Management
+CTRL_0114,2025-03-14,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0114,2025-06-20,Medication management,99215,182834008,581477,Management
+CTRL_0115,2024-10-02,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0116,2022-12-25,Medication management,99215,182834008,581477,Management
+CTRL_0116,2023-10-24,Medication management,99215,182834008,581477,Management
+CTRL_0117,2025-01-16,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0118,2022-07-22,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0118,2024-06-04,Medication management,99215,182834008,581477,Management
+CTRL_0119,2023-09-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0120,2025-01-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0120,2025-05-09,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0121,2024-05-29,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0121,2025-11-30,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0121,2025-12-01,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0122,2025-02-16,Medication management,99215,182834008,581477,Management
+CTRL_0122,2025-09-02,Medication management,99215,182834008,581477,Management
+CTRL_0122,2025-10-06,Medication management,99215,182834008,581477,Management
+CTRL_0122,2025-11-18,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0123,2024-05-28,Medication management,99215,182834008,581477,Management
+CTRL_0124,2022-11-16,Medication management,99215,182834008,581477,Management
+CTRL_0124,2023-05-01,Medication management,99215,182834008,581477,Management
+CTRL_0124,2023-08-24,Medication management,99215,182834008,581477,Management
+CTRL_0124,2024-12-04,Medication management,99215,182834008,581477,Management
+CTRL_0124,2025-03-20,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0125,2023-08-13,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0125,2024-05-17,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0125,2024-11-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0125,2025-01-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0125,2025-09-05,Medication management,99215,182834008,581477,Management
+CTRL_0126,2023-11-18,Medication management,99215,182834008,581477,Management
+CTRL_0126,2024-07-20,Medication management,99215,182834008,581477,Management
+CTRL_0126,2024-08-28,Medication management,99215,182834008,581477,Management
+CTRL_0127,2025-11-21,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0128,2024-12-09,Medication management,99215,182834008,581477,Management
+CTRL_0128,2025-03-26,Medication management,99215,182834008,581477,Management
+CTRL_0128,2025-05-30,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0128,2025-09-28,Medication management,99215,182834008,581477,Management
+CTRL_0129,2023-09-09,Medication management,99215,182834008,581477,Management
+CTRL_0129,2024-06-12,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0130,2025-10-22,Medication management,99215,182834008,581477,Management
+CTRL_0131,2024-04-04,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0132,2024-01-10,Medication management,99215,182834008,581477,Management
+CTRL_0132,2025-02-12,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0132,2025-07-09,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0132,2025-09-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0133,2025-09-02,Medication management,99215,182834008,581477,Management
+CTRL_0133,2025-09-13,Medication management,99215,182834008,581477,Management
+CTRL_0134,2025-09-27,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0135,2024-06-03,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0135,2024-11-07,Medication management,99215,182834008,581477,Management
+CTRL_0135,2025-01-21,Medication management,99215,182834008,581477,Management
+CTRL_0135,2025-04-16,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0135,2025-06-04,Medication management,99215,182834008,581477,Management
+CTRL_0136,2023-03-12,Medication management,99215,182834008,581477,Management
+CTRL_0136,2024-01-31,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0136,2025-01-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0137,2023-06-12,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0138,2023-03-10,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0138,2024-04-22,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0139,2022-03-17,Medication management,99215,182834008,581477,Management
+CTRL_0139,2022-04-24,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0139,2022-12-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0139,2025-03-17,Medication management,99215,182834008,581477,Management
+CTRL_0139,2025-11-23,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0140,2023-01-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0140,2023-12-09,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0141,2022-03-29,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0141,2024-06-02,Medication management,99215,182834008,581477,Management
+CTRL_0141,2024-12-21,Medication management,99215,182834008,581477,Management
+CTRL_0141,2025-06-13,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0141,2025-08-31,Medication management,99215,182834008,581477,Management
+CTRL_0142,2024-03-25,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0142,2025-01-14,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0142,2025-06-22,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0142,2025-08-11,Medication management,99215,182834008,581477,Management
+CTRL_0143,2021-04-14,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0143,2022-04-30,Medication management,99215,182834008,581477,Management
+CTRL_0143,2022-08-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0143,2022-08-22,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0143,2023-05-18,Medication management,99215,182834008,581477,Management
+CTRL_0144,2022-02-17,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0145,2023-07-17,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0145,2023-11-14,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0145,2024-11-29,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0145,2025-04-27,Medication management,99215,182834008,581477,Management
+CTRL_0145,2025-07-18,Medication management,99215,182834008,581477,Management
+CTRL_0146,2022-05-06,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0146,2023-10-08,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0146,2025-05-09,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0146,2025-10-20,Medication management,99215,182834008,581477,Management
+CTRL_0147,2023-01-13,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0147,2023-01-20,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0148,2024-09-29,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0148,2024-11-23,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0148,2024-12-10,Medication management,99215,182834008,581477,Management
+CTRL_0149,2024-09-24,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0150,2024-10-17,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0150,2025-04-25,Medication management,99215,182834008,581477,Management
+CTRL_0151,2022-09-29,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0151,2022-10-26,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0151,2024-06-26,Medication management,99215,182834008,581477,Management
+CTRL_0151,2024-07-06,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0151,2024-10-31,Medication management,99215,182834008,581477,Management
+CTRL_0152,2022-05-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0152,2023-08-21,Medication management,99215,182834008,581477,Management
+CTRL_0152,2023-08-28,Medication management,99215,182834008,581477,Management
+CTRL_0152,2024-09-23,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0152,2025-06-17,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0153,2023-12-08,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0153,2024-03-27,Medication management,99215,182834008,581477,Management
+CTRL_0153,2024-06-20,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0154,2022-12-16,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0154,2023-04-07,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0154,2025-09-02,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0155,2024-12-31,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0155,2025-05-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0155,2025-07-14,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0156,2025-02-26,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0156,2025-06-25,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0157,2021-10-22,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0157,2023-03-15,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0157,2023-04-21,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0157,2024-12-06,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0158,2025-10-26,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0159,2022-02-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0159,2022-11-20,Medication management,99215,182834008,581477,Management
+CTRL_0159,2024-08-20,Medication management,99215,182834008,581477,Management
+CTRL_0160,2023-12-04,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0160,2024-07-29,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0161,2021-09-26,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0161,2022-08-17,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0161,2023-08-19,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0161,2023-11-05,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0162,2024-10-12,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0162,2025-09-26,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0163,2022-07-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0163,2023-06-05,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0163,2023-11-16,Medication management,99215,182834008,581477,Management
+CTRL_0163,2024-09-03,Medication management,99215,182834008,581477,Management
+CTRL_0163,2025-03-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0164,2022-11-10,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0164,2023-04-26,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0164,2024-03-16,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0164,2024-09-21,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0164,2024-10-04,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0165,2022-11-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0166,2021-01-13,Medication management,99215,182834008,581477,Management
+CTRL_0166,2023-03-09,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0166,2024-01-21,Medication management,99215,182834008,581477,Management
+CTRL_0167,2022-08-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0167,2024-08-07,Medication management,99215,182834008,581477,Management
+CTRL_0167,2025-07-04,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0168,2022-06-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0169,2022-04-10,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0169,2023-09-13,Medication management,99215,182834008,581477,Management
+CTRL_0169,2024-07-11,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0170,2023-01-10,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0170,2023-03-29,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0170,2023-04-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0171,2024-08-27,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0171,2024-11-07,Medication management,99215,182834008,581477,Management
+CTRL_0171,2024-11-13,Medication management,99215,182834008,581477,Management
+CTRL_0171,2024-11-14,Medication management,99215,182834008,581477,Management
+CTRL_0171,2025-04-30,Medication management,99215,182834008,581477,Management
+CTRL_0172,2024-07-24,Medication management,99215,182834008,581477,Management
+CTRL_0173,2023-05-09,Medication management,99215,182834008,581477,Management
+CTRL_0173,2023-06-21,Medication management,99215,182834008,581477,Management
+CTRL_0173,2023-07-09,Medication management,99215,182834008,581477,Management
+CTRL_0173,2024-05-28,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0173,2024-12-08,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0174,2024-08-07,Medication management,99215,182834008,581477,Management
+CTRL_0174,2025-07-22,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0174,2025-08-18,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0174,2025-08-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0175,2023-07-07,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0176,2023-04-30,Medication management,99215,182834008,581477,Management
+CTRL_0176,2023-09-07,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0176,2025-09-08,Medication management,99215,182834008,581477,Management
+CTRL_0177,2023-12-04,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0177,2025-02-19,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0178,2024-11-16,Speech therapy,92507,80092005,2721044,Rehabilitation
+CTRL_0178,2025-08-30,Medication management,99215,182834008,581477,Management
+CTRL_0179,2022-06-23,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0179,2023-04-06,Medication management,99215,182834008,581477,Management
+CTRL_0180,2025-01-26,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0180,2025-02-11,Medication management,99215,182834008,581477,Management
+CTRL_0181,2025-01-08,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0181,2025-11-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0182,2023-06-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0183,2022-08-14,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0183,2023-06-11,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0184,2022-04-07,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0184,2023-05-06,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0184,2024-04-14,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0184,2024-07-19,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0184,2025-05-27,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0185,2024-01-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0185,2024-09-18,Medication management,99215,182834008,581477,Management
+CTRL_0185,2024-12-05,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0185,2025-11-14,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0186,2023-12-28,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0186,2025-05-09,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0186,2025-10-14,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0187,2023-08-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0188,2024-10-27,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0188,2025-04-30,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0188,2025-08-05,Memory training,97532,410172006,4059388,Cognitive
+CTRL_0188,2025-08-06,Medication management,99215,182834008,581477,Management
+CTRL_0189,2023-09-27,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0189,2024-01-03,Medication management,99215,182834008,581477,Management
+CTRL_0189,2024-07-03,Medication management,99215,182834008,581477,Management
+CTRL_0189,2024-08-02,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0189,2025-03-12,Medication management,99215,182834008,581477,Management
+CTRL_0190,2024-04-03,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0190,2024-11-17,Medication management,99215,182834008,581477,Management
+CTRL_0191,2022-08-28,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0191,2023-12-16,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0191,2025-01-15,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0192,2023-09-11,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0192,2024-04-19,Medication management,99215,182834008,581477,Management
+CTRL_0192,2025-01-04,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0192,2025-05-10,Neuropsychological testing,96132,443730003,2721045,Assessment
+CTRL_0193,2022-02-16,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0194,2024-07-24,Medication management,99215,182834008,581477,Management
+CTRL_0194,2024-12-23,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0194,2025-05-28,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0194,2025-09-03,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0195,2024-06-06,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0195,2025-04-30,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0196,2023-12-11,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0197,2024-05-19,Medication management,99215,182834008,581477,Management
+CTRL_0197,2024-12-27,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0197,2025-01-30,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0197,2025-02-12,Medication management,99215,182834008,581477,Management
+CTRL_0198,2024-11-06,Medication management,99215,182834008,581477,Management
+CTRL_0198,2025-03-06,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0198,2025-08-22,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0198,2025-09-09,Medication management,99215,182834008,581477,Management
+CTRL_0199,2024-01-25,Medication management,99215,182834008,581477,Management
+CTRL_0199,2025-06-17,Physical therapy evaluation,97161,91251008,2721042,Rehabilitation
+CTRL_0199,2025-06-22,Medication management,99215,182834008,581477,Management
+CTRL_0199,2025-08-14,Cognitive behavioral therapy,90832,385898002,4130086,Psychotherapy
+CTRL_0199,2025-09-09,Medication management,99215,182834008,581477,Management
+CTRL_0200,2023-04-22,Occupational therapy,97165,310128004,2721043,Rehabilitation
+CTRL_0200,2025-05-15,Neuropsychological testing,96132,443730003,2721045,Assessment

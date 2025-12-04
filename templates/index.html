@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AD EHR Deep Phenotyping Platform</title>
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/dashboard.css">
+</head>
+<body>
+    <!-- Enhanced Navbar -->
+    <nav class="navbar navbar-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">
+                <i class="bi bi-heart-pulse-fill"></i> AD Deep Phenotyping Platform
+            </span>
+            <div class="d-flex align-items-center">
+                <a href="/upload" class="btn btn-light btn-sm me-3">
+                    <i class="bi bi-cloud-upload"></i> Upload Data
+                </a>
+                <span class="text-light">
+                    <i class="bi bi-cpu"></i> Powered by GPT-5.1
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-4 px-4">
+        <!-- Model Comparison Dashboard -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card performance-dashboard fade-in">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <i class="bi bi-speedometer2"></i> Multi-Model Performance Comparison
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <!-- Model Selection -->
+                        <div class="row mb-4">
+                            <div class="col-md-12">
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-primary" onclick="loadModelComparison('all')">
+                                        <i class="bi bi-collection"></i> Compare All Models
+                                    </button>
+                                    <button type="button" class="btn btn-info" onclick="loadModelComparison('baseline')">
+                                        <i class="bi bi-bar-chart"></i> Baseline Model
+                                    </button>
+                                    <button type="button" class="btn btn-success" onclick="loadModelComparison('enhanced')">
+                                        <i class="bi bi-stars"></i> Enhanced Model
+                                    </button>
+                                    <button type="button" class="btn btn-warning" onclick="loadModelComparison('llm')">
+                                        <i class="bi bi-robot"></i> LLM Model (GPT-5.1)
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Performance Metrics -->
+                        <div class="row" id="model-comparison-metrics">
+                            <div class="col-12 text-center">
+                                <div class="spinner-border text-primary" role="status"></div>
+                                <p class="mt-2 text-muted">Click "Compare All Models" to view performance metrics...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Summary Cards -->
+        <div class="row mb-4 slide-in" id="summary-cards" hx-get="/api/data/summary" hx-trigger="load" hx-swap="innerHTML">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="spinner-border text-primary" role="status"></div>
+                        <h5 class="card-title mt-3">Loading data summary...</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Analysis Tabs -->
+        <ul class="nav nav-tabs" id="analysisTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="umap-tab" data-bs-toggle="tab" data-bs-target="#umap" type="button" role="tab">
+                    <i class="bi bi-diagram-3"></i> UMAP Analysis
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="association-tab" data-bs-toggle="tab" data-bs-target="#association" type="button" role="tab">
+                    <i class="bi bi-graph-up"></i> Association Analysis
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="phenotypes-tab" data-bs-toggle="tab" data-bs-target="#phenotypes" type="button" role="tab">
+                    <i class="bi bi-lightbulb"></i> AI Phenotype Insights
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="network-tab" data-bs-toggle="tab" data-bs-target="#network" type="button" role="tab">
+                    <i class="bi bi-diagram-2"></i> Network Analysis
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="models-tab" data-bs-toggle="tab" data-bs-target="#models" type="button" role="tab">
+                    <i class="bi bi-trophy"></i> Model Performance
+                </button>
+            </li>
+        </ul>
+
+        <div class="tab-content mt-4" id="analysisTabContent">
+            <!-- UMAP Tab -->
+            <div class="tab-pane fade show active" id="umap" role="tabpanel">
+                <div class="card fade-in">
+                    <div class="card-header">
+                        <h5><i class="bi bi-diagram-3"></i> Advanced UMAP Dimensionality Reduction</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-4">
+                            <div class="col-lg-8">
+                                <form hx-post="/api/analysis/umap" hx-target="#umap-results" hx-swap="innerHTML" hx-indicator="#umap-spinner">
+                                    <div class="row mb-3">
+                                        <div class="col-md-3">
+                                            <label for="n_neighbors" class="form-label">
+                                                <i class="bi bi-people"></i> N Neighbors
+                                            </label>
+                                            <input type="number" class="form-control" id="n_neighbors" name="n_neighbors" value="15" min="2" max="200">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label for="min_dist" class="form-label">
+                                                <i class="bi bi-rulers"></i> Min Distance
+                                            </label>
+                                            <input type="number" class="form-control" id="min_dist" name="min_dist" value="0.1" step="0.01" min="0" max="1">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label for="metric" class="form-label">
+                                                <i class="bi bi-calculator"></i> Metric
+                                            </label>
+                                            <select class="form-select" id="metric" name="metric">
+                                                <option value="cosine" selected>Cosine</option>
+                                                <option value="euclidean">Euclidean</option>
+                                                <option value="manhattan">Manhattan</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label for="model_type" class="form-label">
+                                                <i class="bi bi-cpu"></i> Model Type
+                                            </label>
+                                            <select class="form-select" id="model_type" name="model_type">
+                                                <option value="baseline">Baseline</option>
+                                                <option value="enhanced">Enhanced</option>
+                                                <option value="llm" selected>LLM (GPT-5.1)</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-lg">
+                                        <span id="umap-spinner" class="spinner-border spinner-border-sm d-none" role="status"></span>
+                                        <i class="bi bi-play-circle-fill"></i> Run UMAP Analysis
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card bg-light border-0">
+                                    <div class="card-body">
+                                        <h6 class="fw-bold"><i class="bi bi-info-circle-fill"></i> About UMAP</h6>
+                                        <p class="small mb-2">
+                                            <strong>Baseline:</strong> Standard feature engineering with ICD-10 chapters
+                                        </p>
+                                        <p class="small mb-2">
+                                            <strong>Enhanced:</strong> Advanced temporal + comorbidity patterns
+                                        </p>
+                                        <p class="small mb-0">
+                                            <strong>LLM (GPT-5.1):</strong> AI-powered semantic embeddings + clinical reasoning
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="umap-results"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Association Analysis Tab -->
+            <div class="tab-pane fade" id="association" role="tabpanel">
+                <div class="card fade-in">
+                    <div class="card-header">
+                        <h5><i class="bi bi-graph-up"></i> Statistical Association Analysis</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="nav nav-pills mb-4" id="associationPills" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="diagnosis-pill" data-bs-toggle="pill" data-bs-target="#diagnosis-analysis" type="button">
+                                    <i class="bi bi-file-medical"></i> Diagnosis
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="medications-pill" data-bs-toggle="pill" data-bs-target="#medications-analysis" type="button">
+                                    <i class="bi bi-capsule"></i> Medications
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="labs-pill" data-bs-toggle="pill" data-bs-target="#labs-analysis" type="button">
+                                    <i class="bi bi-activity"></i> Lab Results
+                                </button>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="diagnosis-analysis">
+                                <form hx-post="/api/analysis/association/diagnosis" hx-target="#diagnosis-results" hx-swap="innerHTML" hx-indicator="#diagnosis-spinner">
+                                    <div class="row mb-3">
+                                        <div class="col-md-3">
+                                            <label for="stratify_diag" class="form-label">Stratify By</label>
+                                            <select class="form-select" id="stratify_diag" name="stratify_by">
+                                                <option value="">None</option>
+                                                <option value="sex">Sex</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label for="alpha_diag" class="form-label">Significance Level</label>
+                                            <input type="number" class="form-control" id="alpha_diag" name="bonferroni_alpha" value="0.05" step="0.01" min="0" max="1">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label class="form-label">&nbsp;</label>
+                                            <button type="submit" class="btn btn-primary w-100">
+                                                <span id="diagnosis-spinner" class="spinner-border spinner-border-sm d-none" role="status"></span>
+                                                <i class="bi bi-search"></i> Analyze
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div id="diagnosis-results"></div>
+                            </div>
+
+                            <div class="tab-pane fade" id="medications-analysis">
+                                <form hx-post="/api/analysis/association/medications" hx-target="#medications-results" hx-swap="innerHTML" hx-indicator="#medications-spinner">
+                                    <div class="row mb-3">
+                                        <div class="col-md-3">
+                                            <label for="alpha_med" class="form-label">Significance Level</label>
+                                            <input type="number" class="form-control" id="alpha_med" name="bonferroni_alpha" value="0.05" step="0.01" min="0" max="1">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label class="form-label">&nbsp;</label>
+                                            <button type="submit" class="btn btn-primary w-100">
+                                                <span id="medications-spinner" class="spinner-border spinner-border-sm d-none" role="status"></span>
+                                                <i class="bi bi-search"></i> Analyze
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div id="medications-results"></div>
+                            </div>
+
+                            <div class="tab-pane fade" id="labs-analysis">
+                                <form hx-post="/api/analysis/association/labs" hx-target="#labs-results" hx-swap="innerHTML" hx-indicator="#labs-spinner">
+                                    <div class="row mb-3">
+                                        <div class="col-md-3">
+                                            <label for="alpha_labs" class="form-label">Significance Level</label>
+                                            <input type="number" class="form-control" id="alpha_labs" name="bonferroni_alpha" value="0.05" step="0.01" min="0" max="1">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label class="form-label">&nbsp;</label>
+                                            <button type="submit" class="btn btn-primary w-100">
+                                                <span id="labs-spinner" class="spinner-border spinner-border-sm d-none" role="status"></span>
+                                                <i class="bi bi-search"></i> Analyze
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div id="labs-results"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Phenotype Insights Tab -->
+            <div class="tab-pane fade" id="phenotypes" role="tabpanel">
+                <div class="card fade-in">
+                    <div class="card-header">
+                        <h5><i class="bi bi-lightbulb"></i> AI-Powered Phenotype Insights (GPT-5.1)</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-4">
+                            <div class="col-md-12">
+                                <button class="btn btn-primary btn-lg me-2" onclick="loadPhenotypeExplanations()">
+                                    <i class="bi bi-robot"></i> Generate AI Insights
+                                </button>
+                                <button class="btn btn-info btn-lg" onclick="comparePhenotypeMethods()">
+                                    <i class="bi bi-arrow-left-right"></i> Compare Methods
+                                </button>
+                            </div>
+                        </div>
+                        <div id="phenotype-explanations"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Network Tab -->
+            <div class="tab-pane fade" id="network" role="tabpanel">
+                <div class="card fade-in">
+                    <div class="card-header">
+                        <h5><i class="bi bi-diagram-2"></i> Comorbidity Network Analysis</h5>
+                    </div>
+                    <div class="card-body">
+                        <form hx-post="/api/analysis/network" hx-target="#network-results" hx-swap="innerHTML" hx-indicator="#network-spinner">
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <label for="cutoff" class="form-label">Edge Cutoff</label>
+                                    <input type="number" class="form-control" id="cutoff" name="cutoff" value="0.01" step="0.01" min="0" max="1">
+                                    <small class="form-text text-muted">Minimum patient proportion</small>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="diagnosis_level" class="form-label">Diagnosis Level</label>
+                                    <select class="form-select" id="diagnosis_level" name="diagnosis_level">
+                                        <option value="FullDiagnosisName" selected>Full Diagnosis</option>
+                                        <option value="Level3_Category">Level 3</option>
+                                        <option value="Level2_Category">Level 2</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label">&nbsp;</label>
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        <span id="network-spinner" class="spinner-border spinner-border-sm d-none" role="status"></span>
+                                        <i class="bi bi-diagram-2"></i> Build Network
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        <div id="network-results"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Model Performance Tab -->
+            <div class="tab-pane fade" id="models" role="tabpanel">
+                <div class="card fade-in">
+                    <div class="card-header">
+                        <h5><i class="bi bi-trophy"></i> Comprehensive Model Performance Analysis</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-4">
+                            <div class="col-md-12">
+                                <button class="btn btn-primary btn-lg" onclick="runFullBenchmark()">
+                                    <i class="bi bi-play-circle-fill"></i> Run Full Benchmark
+                                </button>
+                            </div>
+                        </div>
+                        <div id="benchmark-results"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/app.js"></script>
+    <script src="/static/dashboard.js"></script>
+</body>
+</html>

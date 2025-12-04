@@ -1,0 +1,72 @@
+<table class="table table-hover status-table">
+    <thead>
+        <tr>
+            <th>Cohort</th>
+            <th>File Type</th>
+            <th>Status</th>
+            <th>Filename</th>
+            <th>Rows</th>
+            <th>Size</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for cohort in ['ad', 'control'] %}
+            {% for file_type in ['demographics', 'diagnosis', 'medications', 'labresults'] %}
+                {% set info = status[cohort][file_type] %}
+                <tr>
+                    <td>
+                        <span class="badge bg-{{ 'danger' if cohort == 'ad' else 'primary' }}">
+                            {{ cohort.upper() }}
+                        </span>
+                    </td>
+                    <td>{{ file_type }}</td>
+                    <td>
+                        {% if info.exists %}
+                            <span class="status-badge uploaded">
+                                <i class="bi bi-check-circle"></i> Uploaded
+                            </span>
+                        {% else %}
+                            <span class="status-badge missing">
+                                <i class="bi bi-x-circle"></i> Missing
+                            </span>
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if info.exists %}
+                            {{ info.filename }}
+                        {% else %}
+                            <span class="text-muted">-</span>
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if info.exists and info.row_count %}
+                            {{ info.row_count }}
+                        {% else %}
+                            <span class="text-muted">-</span>
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if info.exists and info.file_size %}
+                            {{ "%.2f"|format(info.file_size / 1024) }} KB
+                        {% else %}
+                            <span class="text-muted">-</span>
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if info.exists %}
+                            <button class="btn btn-sm btn-outline-danger btn-delete" 
+                                    data-cohort="{{ cohort }}" 
+                                    data-file-type="{{ file_type }}"
+                                    onclick="deleteFile('{{ cohort }}', '{{ file_type }}', this)">
+                                <i class="bi bi-trash"></i> Delete
+                            </button>
+                        {% else %}
+                            <span class="text-muted">-</span>
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+        {% endfor %}
+    </tbody>
+</table>

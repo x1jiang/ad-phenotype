@@ -1,0 +1,174 @@
+/* Enhanced Dashboard Styles */
+.performance-dashboard {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.performance-dashboard .card-header {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.performance-dashboard .card-body {
+    background: white;
+    color: #333;
+    border-radius: 0 0 8px 8px;
+}
+
+.metric-card {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border: none;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.metric-value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #667eea;
+    margin-bottom: 0.5rem;
+}
+
+.metric-label {
+    font-size: 0.9rem;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.metric-change {
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+.metric-change.positive {
+    color: #28a745;
+}
+
+.metric-change.negative {
+    color: #dc3545;
+}
+
+.phenotype-card {
+    border-left: 4px solid #667eea;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.phenotype-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateX(5px);
+}
+
+.phenotype-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.phenotype-body {
+    padding: 1.5rem;
+}
+
+.severity-badge {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.severity-badge.severe {
+    background-color: #dc3545;
+    color: white;
+}
+
+.severity-badge.moderate {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.severity-badge.mild {
+    background-color: #28a745;
+    color: white;
+}
+
+.comorbidity-tag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    margin: 0.25rem;
+    background-color: #e9ecef;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    color: #495057;
+}
+
+.roc-curve-container, .pr-curve-container {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.comparison-card {
+    border: 2px solid #667eea;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.improvement-indicator {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.improvement-indicator.positive {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.improvement-indicator.negative {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.bg-gradient-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.insight-box {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+
+.insight-box h6 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.stat-badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    background: rgba(255,255,255,0.2);
+    border-radius: 8px;
+    font-weight: 600;
+}
+

@@ -1,0 +1,201 @@
+PatientID,Sex,Ethnicity,Race,BirthDate,DeathStatus,Age,SmokingStatus,AlcoholUse,EducationLevel,MaritalStatus,OMOP_PersonID
+CTRL_0001,Female,Not Hispanic or Latino,Unknown,1955-12-04,Alive,70,Former smoker,Moderate,Graduate degree,Married,P100000
+CTRL_0002,Female,Hispanic or Latino,White,1949-12-03,Alive,76,Never smoker,Occasional,Less than high school,Never married,P100001
+CTRL_0003,Female,Hispanic or Latino,White,1946-12-03,Deceased,79,Never smoker,None,Some college,Married,P100002
+CTRL_0004,Male,Not Hispanic or Latino,White,1950-12-03,Alive,75,Never smoker,Occasional,Some college,Never married,P100003
+CTRL_0005,Female,Unknown,White,1965-12-03,Deceased,60,Never smoker,Moderate,Some college,Divorced,P100004
+CTRL_0006,Female,Patient Refused,White,1960-12-03,Alive,65,Former smoker,Occasional,Graduate degree,Unknown,P100005
+CTRL_0007,Male,Unknown,White,1965-12-03,Alive,60,Current smoker,Occasional,College degree,Married,P100006
+CTRL_0008,Female,Hispanic or Latino,White,1939-12-04,Alive,86,Former smoker,Occasional,College degree,Married,P100007
+CTRL_0009,Male,Not Hispanic or Latino,White,1934-12-03,Alive,91,Former smoker,None,Some college,Widowed,P100008
+CTRL_0010,Female,Patient Refused,Unknown,1942-12-03,Alive,83,Former smoker,None,Some college,Married,P100009
+CTRL_0011,Male,Patient Refused,Native Hawaiian or Other Pacific Islander,1950-12-03,Alive,75,Current smoker,None,Graduate degree,Married,P100010
+CTRL_0012,Female,Unknown,White,1936-12-03,Alive,89,Former smoker,None,Some college,Married,P100011
+CTRL_0013,Male,Unknown,White,1975-12-04,Alive,50,Never smoker,Occasional,College degree,Unknown,P100012
+CTRL_0014,Female,Patient Refused,Unknown,1953-12-03,Alive,72,Never smoker,None,College degree,Married,P100013
+CTRL_0015,Male,Unknown,Asian,1950-12-03,Alive,75,Never smoker,None,Unknown,Widowed,P100014
+CTRL_0016,Female,Unknown,White,1949-12-03,Alive,76,Never smoker,Moderate,Graduate degree,Married,P100015
+CTRL_0017,Male,Patient Refused,White,1957-12-03,Alive,68,Former smoker,Moderate,High school,Married,P100016
+CTRL_0018,Female,Not Hispanic or Latino,Black or African American,1955-12-04,Alive,70,Former smoker,Moderate,Graduate degree,Widowed,P100017
+CTRL_0019,Female,Not Hispanic or Latino,White,1949-12-03,Alive,76,Former smoker,Occasional,Unknown,Divorced,P100018
+CTRL_0020,Female,Unknown,White,1960-12-03,Alive,65,Former smoker,Heavy,College degree,Widowed,P100019
+CTRL_0021,Male,Patient Refused,White,1963-12-04,Alive,62,Never smoker,Heavy,High school,Married,P100020
+CTRL_0022,Male,Patient Refused,White,1952-12-03,Alive,73,Never smoker,Occasional,Less than high school,Married,P100021
+CTRL_0023,Male,Unknown,White,1952-12-03,Alive,73,Never smoker,Occasional,College degree,Married,P100022
+CTRL_0024,Male,Patient Refused,Black or African American,1956-12-03,Alive,69,Never smoker,None,College degree,Married,P100023
+CTRL_0025,Female,Patient Refused,White,1958-12-03,Alive,67,Current smoker,Occasional,Some college,Widowed,P100024
+CTRL_0026,Female,Not Hispanic or Latino,White,1967-12-04,Alive,58,Never smoker,Occasional,College degree,Married,P100025
+CTRL_0027,Female,Hispanic or Latino,White,1956-12-03,Alive,69,Never smoker,Occasional,Less than high school,Married,P100026
+CTRL_0028,Male,Not Hispanic or Latino,Asian,1951-12-04,Alive,74,Never smoker,None,Graduate degree,Married,P100027
+CTRL_0029,Female,Unknown,White,1954-12-03,Alive,71,Former smoker,Unknown,High school,Never married,P100028
+CTRL_0030,Female,Not Hispanic or Latino,Other,1953-12-03,Alive,72,Current smoker,Moderate,College degree,Widowed,P100029
+CTRL_0031,Female,Not Hispanic or Latino,Asian,1957-12-03,Alive,68,Former smoker,None,Some college,Married,P100030
+CTRL_0032,Female,Hispanic or Latino,White,1947-12-04,Alive,78,Former smoker,Moderate,College degree,Married,P100031
+CTRL_0033,Male,Not Hispanic or Latino,Black or African American,1975-12-04,Alive,50,Former smoker,Unknown,High school,Married,P100032
+CTRL_0034,Male,Unknown,White,1959-12-04,Alive,66,Never smoker,Moderate,College degree,Widowed,P100033
+CTRL_0035,Male,Hispanic or Latino,Black or African American,1959-12-04,Alive,66,Never smoker,Occasional,High school,Divorced,P100034
+CTRL_0036,Male,Unknown,Unknown,1971-12-04,Alive,54,Current smoker,Moderate,High school,Married,P100035
+CTRL_0037,Female,Not Hispanic or Latino,Native Hawaiian or Other Pacific Islander,1956-12-03,Alive,69,Never smoker,Occasional,High school,Married,P100036
+CTRL_0038,Female,Patient Refused,White,1958-12-03,Alive,67,Never smoker,Occasional,Some college,Married,P100037
+CTRL_0039,Female,Unknown,Asian,1944-12-03,Alive,81,Former smoker,None,Unknown,Divorced,P100038
+CTRL_0040,Female,Not Hispanic or Latino,White,1953-12-03,Alive,72,Former smoker,Occasional,Some college,Married,P100039
+CTRL_0041,Female,Hispanic or Latino,Asian,1949-12-03,Deceased,76,Never smoker,Moderate,Less than high school,Married,P100040
+CTRL_0042,Female,Unknown,White,1930-12-03,Alive,95,Former smoker,Moderate,Graduate degree,Widowed,P100041
+CTRL_0043,Female,Hispanic or Latino,White,1957-12-03,Alive,68,Never smoker,None,Some college,Married,P100042
+CTRL_0044,Female,Not Hispanic or Latino,White,1963-12-04,Alive,62,Never smoker,None,College degree,Widowed,P100043
+CTRL_0045,Female,Unknown,White,1958-12-03,Deceased,67,Never smoker,Heavy,High school,Divorced,P100044
+CTRL_0046,Male,Not Hispanic or Latino,White,1951-12-04,Deceased,74,Former smoker,Moderate,Some college,Divorced,P100045
+CTRL_0047,Male,Not Hispanic or Latino,White,1945-12-03,Alive,80,Never smoker,Moderate,College degree,Divorced,P100046
+CTRL_0048,Male,Patient Refused,Asian,1975-12-04,Alive,50,Current smoker,Occasional,High school,Married,P100047
+CTRL_0049,Male,Hispanic or Latino,White,1965-12-03,Alive,60,Current smoker,Moderate,High school,Never married,P100048
+CTRL_0050,Female,Unknown,Asian,1936-12-03,Alive,89,Unknown,Occasional,Some college,Never married,P100049
+CTRL_0051,Male,Unknown,White,1954-12-03,Alive,71,Current smoker,None,High school,Married,P100050
+CTRL_0052,Male,Not Hispanic or Latino,White,1957-12-03,Deceased,68,Never smoker,Moderate,High school,Divorced,P100051
+CTRL_0053,Female,Not Hispanic or Latino,Asian,1930-12-03,Alive,95,Never smoker,Unknown,Some college,Married,P100052
+CTRL_0054,Female,Unknown,White,1953-12-03,Alive,72,Current smoker,None,Some college,Married,P100053
+CTRL_0055,Male,Hispanic or Latino,White,1946-12-03,Alive,79,Unknown,None,High school,Married,P100054
+CTRL_0056,Male,Unknown,Native Hawaiian or Other Pacific Islander,1975-12-04,Alive,50,Never smoker,None,College degree,Married,P100055
+CTRL_0057,Female,Unknown,White,1963-12-04,Alive,62,Never smoker,Moderate,Some college,Never married,P100056
+CTRL_0058,Female,Unknown,Black or African American,1957-12-03,Alive,68,Never smoker,Occasional,Unknown,Widowed,P100057
+CTRL_0059,Male,Not Hispanic or Latino,White,1966-12-03,Alive,59,Former smoker,None,High school,Widowed,P100058
+CTRL_0060,Male,Unknown,Native Hawaiian or Other Pacific Islander,1966-12-03,Alive,59,Current smoker,Occasional,Less than high school,Married,P100059
+CTRL_0061,Male,Hispanic or Latino,White,1930-12-03,Alive,95,Former smoker,Moderate,College degree,Widowed,P100060
+CTRL_0062,Female,Patient Refused,Other,1972-12-03,Alive,53,Never smoker,Unknown,Less than high school,Married,P100061
+CTRL_0063,Female,Hispanic or Latino,Asian,1965-12-03,Alive,60,Current smoker,Occasional,Graduate degree,Married,P100062
+CTRL_0064,Male,Patient Refused,White,1953-12-03,Alive,72,Former smoker,Moderate,High school,Married,P100063
+CTRL_0065,Male,Not Hispanic or Latino,White,1965-12-03,Alive,60,Unknown,None,Some college,Married,P100064
+CTRL_0066,Male,Not Hispanic or Latino,Unknown,1967-12-04,Deceased,58,Current smoker,Occasional,High school,Widowed,P100065
+CTRL_0067,Male,Unknown,Black or African American,1954-12-03,Alive,71,Never smoker,Occasional,High school,Widowed,P100066
+CTRL_0068,Female,Unknown,White,1975-12-04,Alive,50,Former smoker,None,Unknown,Divorced,P100067
+CTRL_0069,Male,Patient Refused,White,1937-12-03,Deceased,88,Former smoker,Occasional,Less than high school,Widowed,P100068
+CTRL_0070,Female,Unknown,Black or African American,1975-12-04,Alive,50,Never smoker,Moderate,College degree,Divorced,P100069
+CTRL_0071,Male,Unknown,Asian,1952-12-03,Alive,73,Former smoker,Occasional,Some college,Married,P100070
+CTRL_0072,Female,Not Hispanic or Latino,Asian,1938-12-03,Alive,87,Current smoker,Unknown,Less than high school,Divorced,P100071
+CTRL_0073,Male,Unknown,White,1952-12-03,Alive,73,Former smoker,None,High school,Widowed,P100072
+CTRL_0074,Female,Unknown,American Indian or Alaska Native,1945-12-03,Alive,80,Unknown,Occasional,Graduate degree,Married,P100073
+CTRL_0075,Female,Not Hispanic or Latino,Black or African American,1952-12-03,Alive,73,Current smoker,None,High school,Married,P100074
+CTRL_0076,Female,Patient Refused,White,1961-12-03,Deceased,64,Current smoker,Unknown,High school,Married,P100075
+CTRL_0077,Female,Unknown,Asian,1957-12-03,Alive,68,Never smoker,Occasional,Less than high school,Married,P100076
+CTRL_0078,Female,Not Hispanic or Latino,White,1959-12-04,Alive,66,Unknown,Occasional,High school,Married,P100077
+CTRL_0079,Male,Not Hispanic or Latino,White,1956-12-03,Alive,69,Never smoker,Occasional,Less than high school,Married,P100078
+CTRL_0080,Male,Patient Refused,White,1958-12-03,Alive,67,Former smoker,Occasional,Less than high school,Widowed,P100079
+CTRL_0081,Female,Hispanic or Latino,White,1968-12-03,Alive,57,Former smoker,Heavy,High school,Married,P100080
+CTRL_0082,Male,Not Hispanic or Latino,White,1956-12-03,Alive,69,Never smoker,None,High school,Divorced,P100081
+CTRL_0083,Female,Patient Refused,White,1945-12-03,Alive,80,Never smoker,Occasional,Less than high school,Never married,P100082
+CTRL_0084,Female,Unknown,White,1938-12-03,Alive,87,Never smoker,None,College degree,Married,P100083
+CTRL_0085,Female,Unknown,White,1956-12-03,Alive,69,Never smoker,Unknown,Graduate degree,Divorced,P100084
+CTRL_0086,Female,Not Hispanic or Latino,White,1943-12-04,Alive,82,Never smoker,Occasional,High school,Married,P100085
+CTRL_0087,Female,Unknown,Black or African American,1943-12-04,Alive,82,Former smoker,Occasional,College degree,Divorced,P100086
+CTRL_0088,Male,Unknown,White,1966-12-03,Alive,59,Never smoker,Heavy,Some college,Divorced,P100087
+CTRL_0089,Female,Unknown,White,1945-12-03,Alive,80,Never smoker,Unknown,Graduate degree,Married,P100088
+CTRL_0090,Male,Hispanic or Latino,American Indian or Alaska Native,1949-12-03,Alive,76,Never smoker,Moderate,Less than high school,Widowed,P100089
+CTRL_0091,Male,Patient Refused,Asian,1975-12-04,Alive,50,Never smoker,Occasional,High school,Unknown,P100090
+CTRL_0092,Female,Not Hispanic or Latino,White,1953-12-03,Alive,72,Former smoker,Occasional,Some college,Unknown,P100091
+CTRL_0093,Female,Hispanic or Latino,White,1944-12-03,Alive,81,Former smoker,Moderate,Some college,Married,P100092
+CTRL_0094,Male,Patient Refused,White,1951-12-04,Alive,74,Never smoker,Moderate,College degree,Married,P100093
+CTRL_0095,Female,Hispanic or Latino,White,1955-12-04,Alive,70,Former smoker,Unknown,College degree,Married,P100094
+CTRL_0096,Male,Unknown,White,1942-12-03,Alive,83,Current smoker,Heavy,College degree,Married,P100095
+CTRL_0097,Male,Unknown,American Indian or Alaska Native,1953-12-03,Alive,72,Former smoker,Moderate,High school,Never married,P100096
+CTRL_0098,Female,Unknown,White,1967-12-04,Alive,58,Never smoker,Occasional,College degree,Widowed,P100097
+CTRL_0099,Female,Unknown,White,1958-12-03,Alive,67,Former smoker,Moderate,Some college,Married,P100098
+CTRL_0100,Female,Unknown,Unknown,1932-12-03,Deceased,93,Former smoker,None,College degree,Divorced,P100099
+CTRL_0101,Female,Not Hispanic or Latino,White,1931-12-04,Alive,94,Former smoker,Occasional,High school,Unknown,P100100
+CTRL_0102,Male,Unknown,White,1963-12-04,Alive,62,Former smoker,Moderate,College degree,Married,P100101
+CTRL_0103,Female,Hispanic or Latino,White,1946-12-03,Alive,79,Former smoker,Moderate,Some college,Married,P100102
+CTRL_0104,Female,Unknown,Black or African American,1959-12-04,Alive,66,Former smoker,Occasional,Graduate degree,Married,P100103
+CTRL_0105,Female,Unknown,White,1964-12-03,Alive,61,Former smoker,Occasional,High school,Divorced,P100104
+CTRL_0106,Male,Unknown,White,1944-12-03,Alive,81,Former smoker,Occasional,High school,Married,P100105
+CTRL_0107,Female,Patient Refused,White,1957-12-03,Alive,68,Never smoker,Moderate,Graduate degree,Married,P100106
+CTRL_0108,Male,Patient Refused,Unknown,1943-12-04,Deceased,82,Former smoker,None,High school,Unknown,P100107
+CTRL_0109,Female,Not Hispanic or Latino,Other,1951-12-04,Alive,74,Unknown,Occasional,High school,Widowed,P100108
+CTRL_0110,Male,Unknown,Black or African American,1951-12-04,Deceased,74,Former smoker,None,High school,Married,P100109
+CTRL_0111,Female,Not Hispanic or Latino,White,1965-12-03,Alive,60,Current smoker,None,College degree,Married,P100110
+CTRL_0112,Male,Hispanic or Latino,White,1958-12-03,Alive,67,Never smoker,Occasional,High school,Never married,P100111
+CTRL_0113,Male,Unknown,White,1949-12-03,Alive,76,Never smoker,Unknown,Graduate degree,Married,P100112
+CTRL_0114,Female,Unknown,White,1975-12-04,Alive,50,Never smoker,Occasional,High school,Unknown,P100113
+CTRL_0115,Female,Not Hispanic or Latino,White,1968-12-03,Alive,57,Never smoker,Moderate,Some college,Married,P100114
+CTRL_0116,Male,Not Hispanic or Latino,Black or African American,1948-12-03,Alive,77,Former smoker,Occasional,High school,Married,P100115
+CTRL_0117,Female,Patient Refused,White,1941-12-03,Deceased,84,Current smoker,None,High school,Divorced,P100116
+CTRL_0118,Male,Patient Refused,White,1930-12-03,Alive,95,Never smoker,Moderate,Unknown,Married,P100117
+CTRL_0119,Female,Unknown,White,1968-12-03,Deceased,57,Current smoker,Heavy,High school,Widowed,P100118
+CTRL_0120,Male,Hispanic or Latino,White,1945-12-03,Alive,80,Current smoker,None,Less than high school,Divorced,P100119
+CTRL_0121,Male,Unknown,White,1957-12-03,Alive,68,Former smoker,Moderate,College degree,Widowed,P100120
+CTRL_0122,Female,Unknown,Native Hawaiian or Other Pacific Islander,1966-12-03,Alive,59,Never smoker,Unknown,College degree,Divorced,P100121
+CTRL_0123,Male,Unknown,Black or African American,1949-12-03,Alive,76,Never smoker,None,High school,Married,P100122
+CTRL_0124,Male,Patient Refused,Black or African American,1954-12-03,Alive,71,Never smoker,Moderate,Less than high school,Divorced,P100123
+CTRL_0125,Male,Patient Refused,White,1953-12-03,Alive,72,Unknown,Moderate,High school,Widowed,P100124
+CTRL_0126,Female,Hispanic or Latino,Black or African American,1946-12-03,Alive,79,Never smoker,Moderate,College degree,Married,P100125
+CTRL_0127,Female,Patient Refused,Asian,1975-12-04,Alive,50,Unknown,None,High school,Married,P100126
+CTRL_0128,Female,Patient Refused,Asian,1973-12-03,Alive,52,Former smoker,Occasional,High school,Married,P100127
+CTRL_0129,Female,Hispanic or Latino,White,1953-12-03,Deceased,72,Current smoker,Moderate,Some college,Widowed,P100128
+CTRL_0130,Male,Not Hispanic or Latino,White,1956-12-03,Alive,69,Former smoker,Unknown,Less than high school,Divorced,P100129
+CTRL_0131,Male,Unknown,Unknown,1973-12-03,Alive,52,Never smoker,Moderate,High school,Married,P100130
+CTRL_0132,Male,Not Hispanic or Latino,White,1970-12-03,Alive,55,Never smoker,None,College degree,Married,P100131
+CTRL_0133,Female,Patient Refused,White,1959-12-04,Alive,66,Never smoker,Occasional,College degree,Married,P100132
+CTRL_0134,Male,Unknown,Asian,1952-12-03,Alive,73,Never smoker,Occasional,Graduate degree,Married,P100133
+CTRL_0135,Female,Hispanic or Latino,White,1962-12-03,Alive,63,Current smoker,None,Some college,Married,P100134
+CTRL_0136,Female,Unknown,White,1954-12-03,Deceased,71,Former smoker,Unknown,High school,Never married,P100135
+CTRL_0137,Female,Not Hispanic or Latino,White,1968-12-03,Alive,57,Never smoker,None,Unknown,Divorced,P100136
+CTRL_0138,Female,Patient Refused,White,1958-12-03,Alive,67,Never smoker,Unknown,High school,Widowed,P100137
+CTRL_0139,Female,Hispanic or Latino,White,1960-12-03,Alive,65,Never smoker,None,Graduate degree,Widowed,P100138
+CTRL_0140,Male,Hispanic or Latino,White,1937-12-03,Alive,88,Current smoker,Unknown,College degree,Married,P100139
+CTRL_0141,Male,Not Hispanic or Latino,Asian,1942-12-03,Alive,83,Never smoker,None,High school,Widowed,P100140
+CTRL_0142,Male,Unknown,White,1948-12-03,Alive,77,Never smoker,Unknown,Some college,Widowed,P100141
+CTRL_0143,Male,Patient Refused,Black or African American,1935-12-04,Deceased,90,Current smoker,Occasional,College degree,Married,P100142
+CTRL_0144,Female,Unknown,White,1961-12-03,Alive,64,Unknown,None,College degree,Married,P100143
+CTRL_0145,Male,Unknown,Other,1941-12-03,Alive,84,Current smoker,None,High school,Unknown,P100144
+CTRL_0146,Male,Unknown,Black or African American,1937-12-03,Alive,88,Former smoker,None,College degree,Married,P100145
+CTRL_0147,Male,Not Hispanic or Latino,White,1956-12-03,Alive,69,Never smoker,Occasional,Some college,Married,P100146
+CTRL_0148,Female,Hispanic or Latino,White,1941-12-03,Alive,84,Never smoker,Moderate,High school,Married,P100147
+CTRL_0149,Female,Not Hispanic or Latino,White,1959-12-04,Alive,66,Never smoker,Moderate,Some college,Never married,P100148
+CTRL_0150,Female,Patient Refused,White,1953-12-03,Alive,72,Current smoker,None,High school,Widowed,P100149
+CTRL_0151,Male,Not Hispanic or Latino,White,1960-12-03,Alive,65,Never smoker,Occasional,Some college,Never married,P100150
+CTRL_0152,Male,Unknown,White,1941-12-03,Alive,84,Never smoker,None,College degree,Married,P100151
+CTRL_0153,Female,Hispanic or Latino,White,1953-12-03,Alive,72,Never smoker,Occasional,College degree,Widowed,P100152
+CTRL_0154,Male,Unknown,White,1972-12-03,Alive,53,Former smoker,Occasional,College degree,Widowed,P100153
+CTRL_0155,Male,Hispanic or Latino,White,1936-12-03,Alive,89,Former smoker,None,Some college,Widowed,P100154
+CTRL_0156,Female,Hispanic or Latino,White,1953-12-03,Alive,72,Never smoker,Moderate,High school,Married,P100155
+CTRL_0157,Male,Unknown,White,1945-12-03,Alive,80,Former smoker,None,Some college,Widowed,P100156
+CTRL_0158,Female,Hispanic or Latino,White,1952-12-03,Alive,73,Former smoker,Occasional,Some college,Divorced,P100157
+CTRL_0159,Female,Patient Refused,Asian,1950-12-03,Alive,75,Former smoker,None,College degree,Married,P100158
+CTRL_0160,Female,Patient Refused,White,1966-12-03,Alive,59,Never smoker,Occasional,College degree,Never married,P100159
+CTRL_0161,Male,Hispanic or Latino,Asian,1960-12-03,Deceased,65,Former smoker,Occasional,High school,Married,P100160
+CTRL_0162,Female,Not Hispanic or Latino,Black or African American,1955-12-04,Alive,70,Never smoker,Unknown,Less than high school,Widowed,P100161
+CTRL_0163,Female,Patient Refused,White,1946-12-03,Deceased,79,Never smoker,Moderate,High school,Widowed,P100162
+CTRL_0164,Male,Unknown,Asian,1953-12-03,Alive,72,Never smoker,Occasional,Less than high school,Widowed,P100163
+CTRL_0165,Female,Not Hispanic or Latino,White,1957-12-03,Alive,68,Unknown,Occasional,Less than high school,Married,P100164
+CTRL_0166,Female,Not Hispanic or Latino,White,1959-12-04,Alive,66,Former smoker,Occasional,Less than high school,Widowed,P100165
+CTRL_0167,Female,Not Hispanic or Latino,American Indian or Alaska Native,1949-12-03,Alive,76,Current smoker,Heavy,Graduate degree,Married,P100166
+CTRL_0168,Male,Patient Refused,Black or African American,1953-12-03,Alive,72,Never smoker,Occasional,Some college,Unknown,P100167
+CTRL_0169,Female,Not Hispanic or Latino,Other,1948-12-03,Alive,77,Current smoker,Heavy,Less than high school,Married,P100168
+CTRL_0170,Female,Hispanic or Latino,Asian,1950-12-03,Deceased,75,Former smoker,None,College degree,Married,P100169
+CTRL_0171,Female,Patient Refused,White,1954-12-03,Alive,71,Never smoker,Moderate,Less than high school,Married,P100170
+CTRL_0172,Male,Hispanic or Latino,White,1969-12-03,Alive,56,Current smoker,Unknown,Some college,Widowed,P100171
+CTRL_0173,Female,Unknown,White,1945-12-03,Deceased,80,Current smoker,Occasional,Some college,Divorced,P100172
+CTRL_0174,Male,Patient Refused,Other,1948-12-03,Alive,77,Former smoker,Moderate,Some college,Widowed,P100173
+CTRL_0175,Female,Hispanic or Latino,White,1930-12-03,Deceased,95,Current smoker,Occasional,College degree,Married,P100174
+CTRL_0176,Male,Unknown,White,1957-12-03,Deceased,68,Current smoker,Moderate,Some college,Divorced,P100175
+CTRL_0177,Female,Unknown,White,1960-12-03,Deceased,65,Former smoker,Occasional,College degree,Never married,P100176
+CTRL_0178,Female,Unknown,White,1964-12-03,Alive,61,Never smoker,Occasional,High school,Never married,P100177
+CTRL_0179,Female,Patient Refused,Black or African American,1946-12-03,Alive,79,Current smoker,Occasional,College degree,Divorced,P100178
+CTRL_0180,Female,Unknown,White,1975-12-04,Alive,50,Never smoker,None,Less than high school,Widowed,P100179
+CTRL_0181,Female,Hispanic or Latino,Other,1937-12-03,Alive,88,Current smoker,Moderate,Some college,Married,P100180
+CTRL_0182,Female,Not Hispanic or Latino,Unknown,1965-12-03,Alive,60,Former smoker,None,College degree,Divorced,P100181
+CTRL_0183,Male,Hispanic or Latino,White,1968-12-03,Alive,57,Never smoker,None,High school,Never married,P100182
+CTRL_0184,Female,Patient Refused,Native Hawaiian or Other Pacific Islander,1942-12-03,Alive,83,Never smoker,Moderate,Some college,Married,P100183
+CTRL_0185,Male,Unknown,White,1959-12-04,Alive,66,Never smoker,None,High school,Divorced,P100184
+CTRL_0186,Male,Patient Refused,Asian,1956-12-03,Alive,69,Former smoker,Moderate,Some college,Married,P100185
+CTRL_0187,Female,Unknown,Asian,1935-12-04,Deceased,90,Never smoker,Occasional,Less than high school,Married,P100186
+CTRL_0188,Female,Patient Refused,Black or African American,1972-12-03,Alive,53,Never smoker,Heavy,Graduate degree,Married,P100187
+CTRL_0189,Female,Unknown,Other,1949-12-03,Alive,76,Never smoker,Occasional,Some college,Married,P100188
+CTRL_0190,Female,Hispanic or Latino,White,1944-12-03,Alive,81,Former smoker,None,Graduate degree,Widowed,P100189
+CTRL_0191,Female,Patient Refused,Native Hawaiian or Other Pacific Islander,1950-12-03,Alive,75,Former smoker,Occasional,Some college,Never married,P100190
+CTRL_0192,Male,Patient Refused,White,1969-12-03,Alive,56,Never smoker,None,Some college,Divorced,P100191
+CTRL_0193,Male,Patient Refused,Black or African American,1944-12-03,Alive,81,Former smoker,Occasional,High school,Married,P100192
+CTRL_0194,Female,Patient Refused,White,1944-12-03,Alive,81,Former smoker,None,High school,Married,P100193
+CTRL_0195,Male,Hispanic or Latino,White,1950-12-03,Alive,75,Current smoker,Occasional,College degree,Married,P100194
+CTRL_0196,Male,Hispanic or Latino,Black or African American,1942-12-03,Alive,83,Never smoker,None,Graduate degree,Divorced,P100195
+CTRL_0197,Male,Hispanic or Latino,Asian,1934-12-03,Alive,91,Never smoker,None,Some college,Divorced,P100196
+CTRL_0198,Female,Patient Refused,White,1937-12-03,Alive,88,Current smoker,Moderate,College degree,Widowed,P100197
+CTRL_0199,Male,Not Hispanic or Latino,White,1970-12-03,Alive,55,Current smoker,Occasional,Unknown,Widowed,P100198
+CTRL_0200,Male,Hispanic or Latino,White,1951-12-04,Alive,74,Former smoker,Moderate,Graduate degree,Married,P100199

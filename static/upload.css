@@ -1,0 +1,184 @@
+/* Upload Page Styles */
+body {
+    background-color: #f5f7fa;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.upload-panel {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-bottom: 2rem;
+    min-height: 600px;
+}
+
+.upload-panel .card-header {
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+}
+
+.upload-section {
+    margin-bottom: 1.5rem;
+}
+
+.upload-zone {
+    border: 2px dashed #dee2e6;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-zone:hover {
+    border-color: #0d6efd;
+    background-color: #f8f9fa;
+}
+
+.upload-zone.drag-over {
+    border-color: #0d6efd;
+    background-color: #e7f1ff;
+    transform: scale(1.02);
+}
+
+.upload-zone.uploading {
+    border-color: #ffc107;
+    background-color: #fff3cd;
+}
+
+.upload-zone.uploaded {
+    border-color: #198754;
+    background-color: #d1e7dd;
+}
+
+.upload-icon {
+    font-size: 3rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.upload-zone:hover .upload-icon {
+    color: #0d6efd;
+}
+
+.upload-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #495057;
+    margin-bottom: 0.25rem;
+}
+
+.upload-subtext {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-bottom: 0;
+}
+
+.file-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file-info {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.file-name {
+    font-weight: 500;
+    color: #495057;
+    margin-left: 0.5rem;
+}
+
+.file-size {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-left: 0.5rem;
+}
+
+.progress-container {
+    margin-top: 1rem;
+    display: none;
+}
+
+.progress-container.active {
+    display: block;
+}
+
+.status-table {
+    width: 100%;
+}
+
+.status-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    border-top: none;
+}
+
+.status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.status-badge.uploaded {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.status-badge.missing {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.status-badge.error {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.btn-delete {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+#status-banner {
+    margin-bottom: 1.5rem;
+}
+
+#status-banner.show {
+    display: block !important;
+}
+
+#status-banner.success {
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+    color: #0f5132;
+}
+
+#status-banner.error {
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+    color: #842029;
+}
+
+#status-banner.info {
+    background-color: #cff4fc;
+    border-color: #b6effb;
+    color: #055160;
+}
+
