@@ -29,8 +29,7 @@ This system implements a novel **knowledge graph-enhanced framework** for deep p
 | Document | Description | Purpose |
 |----------|-------------|---------|
 | **[PLAYBOOK.md](PLAYBOOK.md)** | **START HERE** - Complete user guide | Installation, setup, running the system |
-| **[RESEARCH_PAPER.md](RESEARCH_PAPER.md)** | Full research paper (4,200+ words) | Publication-ready manuscript |
-| **[REALISTIC_PERFORMANCE_RESULTS.md](REALISTIC_PERFORMANCE_RESULTS.md)** | Detailed performance analysis | Metrics, error analysis, validation |
+| **[WEB_INTERFACE_GUIDE.md](WEB_INTERFACE_GUIDE.md)** | Web UI guide | Visual interface tutorial |
 
 ---
 
@@ -79,7 +78,7 @@ python run.py
 📁 adehr_phenotype-master/
 ├── 📄 README.md                    ← You are here
 ├── 📖 PLAYBOOK.md                  ← Complete user guide
-├── 📝 RESEARCH_PAPER.md            ← Publication manuscript
+├── 📖 WEB_INTERFACE_GUIDE.md       ← Web UI tutorial
 │
 ├── 🐍 Essential Scripts
 │   ├── run.py                      ← Start web app
@@ -95,7 +94,6 @@ python run.py
 │   └── api/                        ← REST endpoints
 │
 ├── 📊 Data/                        ← 14 CSV files (130K records)
-├── 🖼️ paper_figures/               ← 7 publication figures
 └── 🧪 tests/                       ← Unit tests
 ```
 
@@ -128,9 +126,9 @@ python run.py
 ## 📞 Support
 
 **Getting Started:**
-1. Read [PLAYBOOK.md](PLAYBOOK.md) for installation
-2. Review [RESEARCH_PAPER.md](RESEARCH_PAPER.md) for methods
-3. Check [REALISTIC_PERFORMANCE_RESULTS.md](REALISTIC_PERFORMANCE_RESULTS.md) for validation
+1. Read [PLAYBOOK.md](PLAYBOOK.md) for installation and setup
+2. Review [WEB_INTERFACE_GUIDE.md](WEB_INTERFACE_GUIDE.md) for web UI tutorial
+3. Run tests with `pytest` to verify installation
 
 **Common Issues:** See PLAYBOOK.md Troubleshooting section
 
@@ -139,5 +137,3 @@ python run.py
 **Version:** 1.0 (Production Ready)  
 **Last Updated:** December 3, 2025  
 **Status:** ✅ Complete and validated
-
-**For detailed research paper, methodology, and results, see [RESEARCH_PAPER.md](RESEARCH_PAPER.md)**
