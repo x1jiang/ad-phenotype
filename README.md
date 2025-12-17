@@ -39,17 +39,18 @@ This system implements a novel **knowledge graph-enhanced framework** for deep p
 # 1. Install dependencies
 pip install -r requirements.txt
 
-# 2. Run evaluation
+# 2. Generate synthetic data (if needed)
+python generate_comprehensive_ontology_data.py
+
+# 3. Run model evaluation
 python comprehensive_classification_evaluation.py
 
-# 3. Generate visualizations
-python create_paper_visualizations_simple.py
-
-# 4. Start web app
+# 4. Start web application
 python run.py
+# Then visit http://localhost:8000
 ```
 
-**📖 See [PLAYBOOK.md](PLAYBOOK.md) for complete instructions**
+**📖 See [PLAYBOOK.md](PLAYBOOK.md) for complete installation and usage instructions**
 
 ---
 
