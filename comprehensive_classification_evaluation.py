@@ -159,7 +159,7 @@ print(f"\n📊 Features extracted: {X_kg.shape[1]} features from knowledge graph
 print(f"⏱️  Total time: {kg_time:.2f}s")
 
 # Evaluate with multiple classifiers
-print("\n🎯 Classification Results:\n")
+print("\n🎯 Classification Results (Feature-based):\n")
 
 kg_results = []
 for clf_name in ['Logistic Regression', 'Random Forest', 'Gradient Boosting']:
@@ -170,7 +170,52 @@ for clf_name in ['Logistic Regression', 'Random Forest', 'Gradient Boosting']:
 
 # Select best classifier
 best_kg = max(kg_results, key=lambda x: x['AUC-ROC'])
-print(f"\n🏆 Best KG Classifier: {best_kg['Model']} (AUC: {best_kg['AUC-ROC']:.4f})")
+print(f"\n🏆 Best KG Feature Classifier: {best_kg['Model']} (AUC: {best_kg['AUC-ROC']:.4f})")
+
+# ============================================================================
+# MODEL 1b: GNN (Graph Neural Network) - True Deep Learning on Graph
+# ============================================================================
+
+print("\n" + "="*100)
+print("MODEL 1b: GRAPH NEURAL NETWORK (GNN) - Deep Learning on Knowledge Graph")
+print("="*100)
+
+gnn_start_time = time.time()
+
+# Train and evaluate GNN using the knowledge graph
+try:
+    y_test_gnn, y_pred_gnn, y_pred_proba_gnn, test_idx_gnn = kg_model.train_and_evaluate_gnn(
+        patient_ids=all_patient_ids,
+        labels=labels,
+        test_size=0.25,
+        epochs=100,
+        random_state=42
+    )
+    
+    gnn_time = time.time() - gnn_start_time
+    
+    # Calculate GNN metrics
+    gnn_metrics = calculate_metrics(y_test_gnn, y_pred_gnn, y_pred_proba_gnn, 'GNN (PyTorch)')
+    
+    print(f"\n📊 GNN Performance:")
+    print(f"  AUC-ROC: {gnn_metrics['AUC-ROC']:.4f}")
+    print(f"  F1-Score: {gnn_metrics['F1-Score']:.4f}")
+    print(f"  Accuracy: {gnn_metrics['Accuracy']:.4f}")
+    print(f"  Precision: {gnn_metrics['Precision']:.4f}")
+    print(f"  Recall: {gnn_metrics['Recall']:.4f}")
+    print(f"  Specificity: {gnn_metrics['Specificity']:.4f}")
+    print(f"⏱️  Total time: {gnn_time:.2f}s")
+    
+    GNN_AVAILABLE = True
+    best_gnn = gnn_metrics
+    
+except Exception as e:
+    print(f"\n⚠️ GNN training failed: {e}")
+    print("  Falling back to feature-based KG results for comparison.")
+    GNN_AVAILABLE = False
+    best_gnn = best_kg.copy()
+    best_gnn['Model'] = 'GNN (unavailable)'
+    gnn_time = 0
 
 # ============================================================================
 # MODEL 2: ENHANCED MODEL
@@ -300,8 +345,11 @@ print()
 print(f"{'Model':<30} {'Classifier':<20} {'AUC':<8} {'F1':<8} {'Acc':<8} {'Prec':<8} {'Rec':<8} {'Spec':<8}")
 print("-" * 100)
 
-print(f"{'Knowledge Graph':<30} {best_kg['Model']:<20} {best_kg['AUC-ROC']:<8.4f} {best_kg['F1-Score']:<8.4f} "
+print(f"{'Knowledge Graph (Features)':<30} {best_kg['Model']:<20} {best_kg['AUC-ROC']:<8.4f} {best_kg['F1-Score']:<8.4f} "
       f"{best_kg['Accuracy']:<8.4f} {best_kg['Precision']:<8.4f} {best_kg['Recall']:<8.4f} {best_kg['Specificity']:<8.4f}")
+
+print(f"{'GNN (Deep Learning)':<30} {best_gnn['Model']:<20} {best_gnn['AUC-ROC']:<8.4f} {best_gnn['F1-Score']:<8.4f} "
+      f"{best_gnn['Accuracy']:<8.4f} {best_gnn['Precision']:<8.4f} {best_gnn['Recall']:<8.4f} {best_gnn['Specificity']:<8.4f}")
 
 print(f"{'Enhanced':<30} {best_enhanced['Model']:<20} {best_enhanced['AUC-ROC']:<8.4f} {best_enhanced['F1-Score']:<8.4f} "
       f"{best_enhanced['Accuracy']:<8.4f} {best_enhanced['Precision']:<8.4f} {best_enhanced['Recall']:<8.4f} {best_enhanced['Specificity']:<8.4f}")
@@ -313,7 +361,8 @@ print()
 
 # Determine overall winner
 all_best = [
-    ('Knowledge Graph', best_kg),
+    ('Knowledge Graph (Features)', best_kg),
+    ('GNN (Deep Learning)', best_gnn),
     ('Enhanced', best_enhanced),
     ('LLM (GPT-5.1)', best_llm)
 ]
@@ -345,19 +394,25 @@ print("📈 KEY INSIGHTS")
 print("="*100)
 print()
 
-print(f"1. Knowledge Graph Baseline:")
+print(f"1. Knowledge Graph (Feature-based):")
 print(f"   • AUC-ROC: {best_kg['AUC-ROC']:.4f}")
-print(f"   • Best for: Ontology-driven analysis")
+print(f"   • Best for: Ontology-driven analysis with traditional ML")
 print(f"   • Features: {X_kg.shape[1]} (graph topology + risk scores)")
 print()
 
-print(f"2. Enhanced Model:")
+print(f"2. GNN (Graph Neural Network):")
+print(f"   • AUC-ROC: {best_gnn['AUC-ROC']:.4f}")
+print(f"   • Best for: Deep learning on graph structure with message passing")
+print(f"   • Uses: Patient adjacency matrix from shared medical concepts")
+print()
+
+print(f"3. Enhanced Model:")
 print(f"   • AUC-ROC: {best_enhanced['AUC-ROC']:.4f}")
 print(f"   • Best for: Traditional ML with engineered features")
 print(f"   • Features: {X_enhanced.shape[1]} (temporal, network, trajectory)")
 print()
 
-print(f"3. LLM Model (GPT-5.1):")
+print(f"4. LLM Model (GPT-5.1):")
 print(f"   • AUC-ROC: {best_llm['AUC-ROC']:.4f}")
 print(f"   • Best for: Semantic understanding and AI insights")
 print(f"   • Features: {X_llm.shape[1]} (enhanced + LLM semantic)")
@@ -369,8 +424,14 @@ print("🎯 RECOMMENDATIONS")
 print("="*100)
 print()
 
-if winner[0] == 'Knowledge Graph':
-    print("✅ RECOMMENDED: Knowledge Graph Baseline")
+if 'GNN' in winner[0]:
+    print("✅ RECOMMENDED: GNN (Graph Neural Network)")
+    print("   • Highest AUC-ROC performance")
+    print("   • True deep learning on graph structure")
+    print("   • Message passing aggregates neighbor information")
+    print("   • Learns from patient-concept-patient relationships")
+elif 'Knowledge Graph' in winner[0]:
+    print("✅ RECOMMENDED: Knowledge Graph (Feature-based)")
     print("   • Highest AUC-ROC performance")
     print("   • Leverages biomedical ontology structure")
     print("   • Captures comorbidity networks")

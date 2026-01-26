@@ -342,52 +342,79 @@ class ADRDKnowledgeGraph:
 class GraphNeuralNetworkADRD(nn.Module if TORCH_AVAILABLE else object):
     """
     Graph Neural Network for ADRD risk prediction
-    Uses Graph Attention Network (GAT) architecture
+    Uses Graph Convolutional Network with optional message passing
     """
     
-    def __init__(self, input_dim: int, hidden_dim: int = 64, output_dim: int = 1):
+    def __init__(self, input_dim: int, hidden_dim: int = 64, output_dim: int = 1, num_layers: int = 3):
         if not TORCH_AVAILABLE:
             raise ImportError("PyTorch required for GNN model")
         
         super(GraphNeuralNetworkADRD, self).__init__()
         
+        self.num_layers = num_layers
+        self.use_message_passing = True  # Can be disabled for MLP-only mode
+        
+        # Initial embedding layer
+        self.input_proj = nn.Linear(input_dim, hidden_dim)
+        
         # Graph convolution layers
-        self.conv1 = nn.Linear(input_dim, hidden_dim)
-        self.conv2 = nn.Linear(hidden_dim, hidden_dim)
-        self.conv3 = nn.Linear(hidden_dim, hidden_dim // 2)
+        self.convs = nn.ModuleList()
+        for _ in range(num_layers - 1):
+            self.convs.append(nn.Linear(hidden_dim, hidden_dim))
         
-        # Attention mechanism
-        self.attention = nn.Linear(hidden_dim // 2, 1)
+        # Layer normalization (more stable than batch norm for small graphs)
+        self.lns = nn.ModuleList([nn.LayerNorm(hidden_dim) for _ in range(num_layers - 1)])
         
-        # Output layer
-        self.fc = nn.Linear(hidden_dim // 2, output_dim)
+        # Output MLP
+        self.fc = nn.Sequential(
+            nn.Linear(hidden_dim, hidden_dim // 2),
+            nn.ReLU(),
+            nn.Dropout(0.3),
+            nn.Linear(hidden_dim // 2, hidden_dim // 4),
+            nn.ReLU(),
+            nn.Dropout(0.2),
+            nn.Linear(hidden_dim // 4, output_dim)
+        )
         
         self.dropout = nn.Dropout(0.3)
     
-    def forward(self, x, edge_index):
-        """Forward pass through the GNN"""
-        # First graph convolution
-        x = self.conv1(x)
+    def message_passing(self, x, adj):
+        """Perform message passing using adjacency matrix"""
+        if adj is None or not self.use_message_passing:
+            return x
+        
+        # Normalize adjacency matrix (add self-loops and normalize)
+        adj = adj + torch.eye(adj.size(0), device=adj.device)
+        deg = adj.sum(dim=1, keepdim=True).clamp(min=1)
+        adj_norm = adj / deg
+        # Aggregate neighbor features
+        x_agg = torch.mm(adj_norm, x)
+        
+        # Combine with skip connection (residual)
+        return 0.5 * x + 0.5 * x_agg
+    
+    def forward(self, x, adj=None):
+        """Forward pass through the GNN with optional message passing"""
+        # Initial projection
+        x = self.input_proj(x)
         x = F.relu(x)
         x = self.dropout(x)
         
-        # Second graph convolution
-        x = self.conv2(x)
-        x = F.relu(x)
-        x = self.dropout(x)
-        
-        # Third graph convolution
-        x = self.conv3(x)
-        x = F.relu(x)
-        
-        # Attention-weighted pooling
-        attention_weights = torch.softmax(self.attention(x), dim=0)
-        x = x * attention_weights
+        # Graph convolution layers with skip connections
+        for i, conv in enumerate(self.convs):
+            residual = x
+            x = conv(x)
+            x = self.message_passing(x, adj)
+            x = self.lns[i](x)
+            x = F.relu(x)
+            x = self.dropout(x)
+            # Skip connection
+            x = x + residual
         
         # Final prediction
-        x = self.fc(x)
+        output = self.fc(x)
         
-        return torch.sigmoid(x)
+        return torch.sigmoid(output)
 
 
 class KnowledgeGraphBaselineModel:
@@ -489,72 +516,380 @@ class KnowledgeGraphBaselineModel:
         """Compute graph-based ADRD risk scores"""
         return self.kg.compute_risk_scores()
     
-    def train_gnn_model(self, labels: Dict[str, int], epochs: int = 100):
+    def _build_patient_adjacency_matrix(self, patient_ids: List[str]) -> np.ndarray:
+        """Build adjacency matrix for patients based on shared medical concepts"""
+        n = len(patient_ids)
+        pid_to_idx = {pid: i for i, pid in enumerate(patient_ids)}
+        
+        # Build adjacency based on shared concepts (diagnoses, medications, etc.)
+        adj = np.zeros((n, n), dtype=np.float32)
+        
+        # For each concept, connect patients who share it
+        concept_patients = defaultdict(list)
+        for pid in patient_ids:
+            if pid in self.kg.graph:
+                for neighbor in self.kg.graph.neighbors(pid):
+                    if neighbor in self.kg.concept_nodes:
+                        concept_patients[neighbor].append(pid)
+        
+        # Create edges between patients sharing concepts
+        for concept, patients in concept_patients.items():
+            for i in range(len(patients)):
+                for j in range(i + 1, len(patients)):
+                    idx_i = pid_to_idx[patients[i]]
+                    idx_j = pid_to_idx[patients[j]]
+                    adj[idx_i, idx_j] = 1.0
+                    adj[idx_j, idx_i] = 1.0
+        
+        return adj
+    
+    def _extract_patient_features(self, patient_ids: List[str]) -> np.ndarray:
+        """Extract rich feature vectors for patients including AD-specific features"""
+        
+        # Compute risk scores if not already done
+        risk_scores = self.kg.compute_risk_scores()
+        
+        features = []
+        for pid in patient_ids:
+            if pid not in self.kg.graph:
+                features.append(np.zeros(25, dtype=np.float32))
+                continue
+            
+            # Get node data
+            node_data = self.kg.graph.nodes.get(pid, {})
+            
+            # Demographics features
+            age = node_data.get('age', 70) / 100.0
+            sex_enc = 1.0 if node_data.get('sex') == 'Male' else 0.0
+            edu_map = {'Less than high school': 0.2, 'High school': 0.4, 'Some college': 0.6, 
+                      'College degree': 0.8, 'Graduate degree': 1.0}
+            edu_enc = edu_map.get(node_data.get('education', 'Unknown'), 0.5)
+            smoke_map = {'Never smoker': 0.0, 'Former smoker': 0.5, 'Current smoker': 1.0}
+            smoke_enc = smoke_map.get(node_data.get('smoking', 'Unknown'), 0.25)
+            
+            # Graph topology features
+            neighbors = list(self.kg.graph.neighbors(pid)) if pid in self.kg.graph else []
+            total_degree = len(neighbors)
+            
+            # Count neighbors by type
+            n_diagnoses = 0
+            n_meds = 0
+            n_labs = 0
+            n_imaging = 0
+            n_treatments = 0
+            
+            # AD-specific: Count by diagnosis category
+            n_nervous_system = 0  # ICD G codes - neurological
+            n_mental = 0          # ICD F codes - mental/behavioral
+            n_circulatory = 0     # ICD I codes - cardiovascular
+            n_endocrine = 0       # ICD E codes - metabolic
+            categories = set()
+            subcategories = set()
+            
+            for n in neighbors:
+                neighbor_data = self.kg.graph.nodes.get(n, {})
+                node_type = neighbor_data.get('node_type', '')
+                
+                if node_type == 'diagnosis':
+                    n_diagnoses += 1
+                    # Get ICD-10 code for chapter analysis
+                    icd10 = neighbor_data.get('icd10', '')
+                    if isinstance(icd10, str):
+                        icd10 = icd10.upper()
+                        if icd10.startswith('G'):
+                            n_nervous_system += 1
+                        elif icd10.startswith('F'):
+                            n_mental += 1
+                        elif icd10.startswith('I'):
+                            n_circulatory += 1
+                        elif icd10.startswith('E'):
+                            n_endocrine += 1
+                    # Track category diversity
+                    cat = neighbor_data.get('category', '')
+                    subcat = neighbor_data.get('subcategory', '')
+                    if cat:
+                        categories.add(cat)
+                    if subcat:
+                        subcategories.add(subcat)
+                        
+                elif node_type == 'medication':
+                    n_meds += 1
+                elif node_type == 'lab_test':
+                    n_labs += 1
+                elif node_type == 'imaging':
+                    n_imaging += 1
+                elif node_type == 'treatment':
+                    n_treatments += 1
+            
+            # Risk score
+            risk_score = risk_scores.get(pid, 0.0)
+            
+            # Category diversity (important discriminator)
+            category_diversity = len(categories) / 10.0
+            subcategory_diversity = len(subcategories) / 20.0
+            
+            # Build feature vector with AD-relevant features
+            feat = np.array([
+                # Demographics (4)
+                age,
+                sex_enc,
+                edu_enc,
+                smoke_enc,
+                # Graph topology (6)
+                total_degree / 100.0,
+                n_diagnoses / 50.0,
+                n_meds / 30.0,
+                n_labs / 30.0,
+                n_imaging / 10.0,
+                n_treatments / 10.0,
+                # AD-specific ICD chapter features (4)
+                n_nervous_system / 10.0,   # G codes - strong AD indicator
+                n_mental / 10.0,           # F codes - cognitive/behavioral
+                n_circulatory / 10.0,      # I codes - vascular dementia
+                n_endocrine / 10.0,        # E codes - metabolic
+                # Diversity features (2)
+                category_diversity,
+                subcategory_diversity,
+                # Risk and complexity (3)
+                risk_score / 10.0,
+                (n_diagnoses + n_meds) / 80.0,     # Medical complexity
+                (n_nervous_system + n_mental) / 15.0,  # Neuro-cognitive burden
+                # Interaction features (4)
+                age * (n_nervous_system / 10.0),   # Age-neuro interaction
+                age * (n_mental / 10.0),           # Age-mental interaction
+                1.0 if n_nervous_system > 0 else 0.0,  # Has neurological dx
+                1.0 if n_mental > 0 else 0.0,          # Has mental/behavioral dx
+                # Binary indicators (2)
+                1.0 if n_diagnoses > 15 else 0.0,
+                1.0 if n_meds > 10 else 0.0,
+            ], dtype=np.float32)
+            
+            features.append(feat)
+        
+        return np.array(features, dtype=np.float32)
+    
+    def train_gnn_model(self, labels: Dict[str, int], epochs: int = 100, 
+                        learning_rate: float = 0.01, hidden_dim: int = 64,
+                        verbose: bool = True):
         """Train the Graph Neural Network"""
         if not TORCH_AVAILABLE:
             print("Warning: PyTorch not available. Skipping GNN training.")
             return None
         
-        print("\n🧠 Training Graph Neural Network...")
+        if verbose:
+            print("\n🧠 Training Graph Neural Network...")
         
-        # Extract node features
-        node_features = self.kg.extract_node_features()
-        
-        # Create node index mapping
-        patient_nodes = list(self.kg.patient_nodes)
+        # Get patient list with labels
+        patient_nodes = [p for p in self.kg.patient_nodes if p in labels]
         self.node_to_idx = {node: idx for idx, node in enumerate(patient_nodes)}
         self.idx_to_node = {idx: node for node, idx in self.node_to_idx.items()}
         
-        # Prepare training data
-        X = []
-        y = []
-        for node in patient_nodes:
-            if node in node_features and node in labels:
-                X.append(node_features[node])
-                y.append(labels[node])
-        
-        X = np.array(X)
-        y = np.array(y)
+        # Extract features and build adjacency matrix
+        X = self._extract_patient_features(patient_nodes)
+        adj = self._build_patient_adjacency_matrix(patient_nodes)
+        y = np.array([labels[p] for p in patient_nodes], dtype=np.float32)
         
         # Initialize model
         input_dim = X.shape[1]
-        self.gnn_model = GraphNeuralNetworkADRD(input_dim=input_dim)
+        self.gnn_model = GraphNeuralNetworkADRD(input_dim=input_dim, hidden_dim=hidden_dim)
         
         # Convert to tensors
         X_tensor = torch.FloatTensor(X)
+        adj_tensor = torch.FloatTensor(adj)
         y_tensor = torch.FloatTensor(y).unsqueeze(1)
         
-        # Training loop (simplified)
-        optimizer = torch.optim.Adam(self.gnn_model.parameters(), lr=0.01)
+        # Training
+        optimizer = torch.optim.Adam(self.gnn_model.parameters(), lr=learning_rate, weight_decay=1e-4)
         criterion = nn.BCELoss()
+        
+        self.gnn_model.train()
+        best_loss = float('inf')
+        patience_counter = 0
         
         for epoch in range(epochs):
             optimizer.zero_grad()
-            
-            # Forward pass (simplified without edge_index for now)
-            # In full implementation, would use proper graph convolution
-            output = self.gnn_model(X_tensor, None)
-            
+            output = self.gnn_model(X_tensor, adj_tensor)
             loss = criterion(output, y_tensor)
             loss.backward()
             optimizer.step()
             
-            if (epoch + 1) % 20 == 0:
+            # Early stopping
+            if loss.item() < best_loss:
+                best_loss = loss.item()
+                patience_counter = 0
+            else:
+                patience_counter += 1
+            
+            if patience_counter >= 20:
+                if verbose:
+                    print(f"  Early stopping at epoch {epoch+1}")
+                break
+            
+            if verbose and (epoch + 1) % 20 == 0:
                 print(f"  Epoch {epoch+1}/{epochs}, Loss: {loss.item():.4f}")
         
-        print("✅ GNN training complete!")
+        if verbose:
+            print("✅ GNN training complete!")
         
         return self.gnn_model
+    
+    def train_and_evaluate_gnn(self, patient_ids: List[str], labels: np.ndarray, 
+                                test_size: float = 0.25, epochs: int = 100,
+                                random_state: int = 42) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
+        """
+        Train GNN and return predictions for evaluation with sklearn metrics.
+        
+        Returns:
+            y_test: True labels for test set
+            y_pred: Predicted labels (0/1) for test set
+            y_pred_proba: Predicted probabilities for test set
+            test_indices: Indices of test samples in original arrays
+        """
+        if not TORCH_AVAILABLE:
+            print("Warning: PyTorch not available. Returning dummy predictions.")
+            n = len(patient_ids)
+            n_test = int(n * test_size)
+            return labels[:n_test], np.zeros(n_test), np.zeros(n_test), np.arange(n_test)
+        
+        from sklearn.model_selection import train_test_split
+        
+        print("\n" + "="*60)
+        print("🧠 GNN MODEL TRAINING AND EVALUATION")
+        print("="*60)
+        
+        # Create label dictionary
+        label_dict = {pid: int(labels[i]) for i, pid in enumerate(patient_ids)}
+        
+        # Split patient IDs
+        indices = np.arange(len(patient_ids))
+        train_idx, test_idx = train_test_split(
+            indices, test_size=test_size, random_state=random_state, stratify=labels
+        )
+        
+        train_pids = [patient_ids[i] for i in train_idx]
+        test_pids = [patient_ids[i] for i in test_idx]
+        
+        print(f"  Training samples: {len(train_pids)}")
+        print(f"  Test samples: {len(test_pids)}")
+        
+        # Build graph features for all patients
+        all_pids = train_pids + test_pids
+        X_all = self._extract_patient_features(all_pids)
+        adj_all = self._build_patient_adjacency_matrix(all_pids)
+        
+        n_train = len(train_pids)
+        n_test = len(test_pids)
+        
+        # Standardize features (critical for neural network training!)
+        from sklearn.preprocessing import StandardScaler
+        scaler = StandardScaler()
+        X_train_scaled = scaler.fit_transform(X_all[:n_train])
+        X_test_scaled = scaler.transform(X_all[n_train:])
+        X_all_scaled = np.vstack([X_train_scaled, X_test_scaled])
+        
+        print(f"  Feature dimension: {X_all_scaled.shape[1]}")
+        
+        # Initialize model with larger hidden dimension
+        input_dim = X_all_scaled.shape[1]
+        self.gnn_model = GraphNeuralNetworkADRD(input_dim=input_dim, hidden_dim=128, num_layers=3)
+        
+        # Convert to tensors
+        X_tensor = torch.FloatTensor(X_all_scaled)
+        adj_tensor = torch.FloatTensor(adj_all)
+        y_train = torch.FloatTensor([label_dict[p] for p in train_pids]).unsqueeze(1)
+        
+        # Training with better hyperparameters
+        optimizer = torch.optim.Adam(self.gnn_model.parameters(), lr=0.005, weight_decay=1e-5)
+        criterion = nn.BCELoss()
+        scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=10)
+        
+        print("\n  Training GNN...")
+        self.gnn_model.train()
+        
+        best_loss = float('inf')
+        patience_counter = 0
+        best_model_state = None
+        
+        for epoch in range(epochs):
+            optimizer.zero_grad()
+            
+            # Forward pass for all nodes
+            all_output = self.gnn_model(X_tensor, adj_tensor)
+            
+            # Loss only on training nodes
+            train_output = all_output[:n_train]
+            loss = criterion(train_output, y_train)
+            
+            loss.backward()
+            
+            # Gradient clipping for stability
+            torch.nn.utils.clip_grad_norm_(self.gnn_model.parameters(), max_norm=1.0)
+            
+            optimizer.step()
+            scheduler.step(loss)
+            
+            # Track best model
+            if loss.item() < best_loss - 0.001:
+                best_loss = loss.item()
+                patience_counter = 0
+                best_model_state = {k: v.clone() for k, v in self.gnn_model.state_dict().items()}
+            else:
+                patience_counter += 1
+            
+            if patience_counter >= 30:
+                print(f"    Early stopping at epoch {epoch+1}")
+                break
+            
+            if (epoch + 1) % 25 == 0:
+                # Calculate training accuracy
+                with torch.no_grad():
+                    train_pred = (train_output >= 0.5).float()
+                    train_acc = (train_pred == y_train).float().mean()
+                print(f"    Epoch {epoch+1}/{epochs}, Loss: {loss.item():.4f}, Train Acc: {train_acc.item():.4f}")
+        
+        # Load best model
+        if best_model_state is not None:
+            self.gnn_model.load_state_dict(best_model_state)
+        
+        # Evaluation
+        print("\n  Evaluating on test set...")
+        self.gnn_model.eval()
+        with torch.no_grad():
+            all_output = self.gnn_model(X_tensor, adj_tensor)
+            test_proba = all_output[n_train:].squeeze().numpy()
+        
+        # Get true labels and predictions
+        y_test = np.array([label_dict[p] for p in test_pids])
+        y_pred_proba = test_proba
+        y_pred = (y_pred_proba >= 0.5).astype(int)
+        
+        print("✅ GNN evaluation complete!")
+        
+        return y_test, y_pred, y_pred_proba, test_idx
     
     def predict(self, patient_ids: List[str]) -> Dict[str, float]:
         """Predict ADRD risk for given patients"""
         predictions = {}
         
-        # Use graph-based risk scores
-        risk_scores = self.kg.compute_risk_scores()
-        
-        for patient_id in patient_ids:
-            predictions[patient_id] = risk_scores.get(patient_id, 0.0)
+        if self.gnn_model is not None and TORCH_AVAILABLE:
+            # Use GNN model if trained
+            X = self._extract_patient_features(patient_ids)
+            adj = self._build_patient_adjacency_matrix(patient_ids)
+            
+            self.gnn_model.eval()
+            with torch.no_grad():
+                X_tensor = torch.FloatTensor(X)
+                adj_tensor = torch.FloatTensor(adj)
+                output = self.gnn_model(X_tensor, adj_tensor)
+                probs = output.squeeze().numpy()
+            
+            for i, pid in enumerate(patient_ids):
+                predictions[pid] = float(probs[i]) if len(probs.shape) > 0 else float(probs)
+        else:
+            # Fallback to graph-based risk scores
+            risk_scores = self.kg.compute_risk_scores()
+            for patient_id in patient_ids:
+                predictions[patient_id] = risk_scores.get(patient_id, 0.0)
         
         return predictions
     
@@ -575,4 +910,5 @@ class KnowledgeGraphBaselineModel:
         # Export as GraphML
         nx.write_graphml(subgraph, filepath)
         print(f"✅ Graph exported for visualization: {filepath}")
+
 
